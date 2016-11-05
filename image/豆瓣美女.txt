@@ -1,0 +1,199 @@
+{
+    "categories": [
+        {
+            "url": "http://www.dbmeinv.com/?pager_offset={page:1}",
+            "title": "首页",
+            "cid": 1
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/show.htm?cid=2&pager_offset={page:1}",
+            "title": "大胸妹",
+            "cid": 2
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/show.htm?cid=6&pager_offset={page:1}",
+            "title": "小翘臀",
+            "cid": 3
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/show.htm?cid=7&pager_offset={page:1}",
+            "title": "黑丝袜",
+            "cid": 4
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/show.htm?cid=3&pager_offset={page:1}",
+            "title": "美腿控",
+            "cid": 5
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/show.htm?cid=4&pager_offset={page:1}",
+            "title": "有颜值",
+            "cid": 6
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/show.htm?cid=5&pager_offset={page:1}",
+            "title": "大杂烩",
+            "cid": 7
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/rank.htm?pager_offset={page:1}",
+            "title": "豆瓣福利",
+            "cid": 8
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=haixiuzu&pager_offset={page:1}",
+            "title": "(小组)请不要害羞",
+            "cid": 9
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=kaopulove&pager_offset={page:1}",
+            "title": "(小组)最靠谱的恋爱组",
+            "cid": 10
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=510760&pager_offset={page:1}",
+            "title": "(小组)我们都爱大胸妹",
+            "cid": 11
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=407518&pager_offset={page:1}",
+            "title": "(小组)我们都爱大长腿",
+            "cid": 12
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=beijing&pager_offset={page:1}",
+            "title": "(小组)吃喝玩乐在北京",
+            "cid": 13
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=516876&pager_offset={page:1}",
+            "title": "(小组)豆瓣好胸妹",
+            "cid": 14
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=503950&pager_offset={page:1}",
+            "title": "(小组)靠谱的恋爱",
+            "cid": 15
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=446091&pager_offset={page:1}",
+            "title": "(小组)满满一碗萝莉大叔",
+            "cid": 16
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=nanpengyou&pager_offset={page:1}",
+            "title": "(小组)加了这个组你就会有男朋友",
+            "cid": 17
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=542175&pager_offset={page:1}",
+            "title": "(小组)我们都很任性",
+            "cid": 18
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=515085&pager_offset={page:1}",
+            "title": "(小组)不正经女青年",
+            "cid": 19
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=face2face&pager_offset={page:1}",
+            "title": "(小组)头像即本人",
+            "cid": 20
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=294735&pager_offset={page:1}",
+            "title": "(小组)我们来谈一星期恋爱吧",
+            "cid": 21
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=481977&pager_offset={page:1}",
+            "title": "(小组)爆照不问出处",
+            "cid": 22
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=godgoddess&pager_offset={page:1}",
+            "title": "(小组)赐我男神女神",
+            "cid": 23
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=496295&pager_offset={page:1}",
+            "title": "(小组)暴露狂请别害羞",
+            "cid": 24
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=416079&pager_offset={page:1}",
+            "title": "(小组)叔组",
+            "cid": 25
+        },
+        {
+            "url": "http://www.dbmeinv.com/dbgroup/current.htm?gid=rouniu&pager_offset={page:1}",
+            "title": "(小组)肉妞粉丝团",
+            "cid": 26
+        }
+    ],
+    "flag": "preloadGallery|noRating|waterfallAsList",
+    "galleryRule": {
+        "datetime": {
+            "fun": "html",
+            "selector": "span.posttime"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.topic-figure.cc > img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "http://ww3.sinaimg.cn/large/(.*)",
+                "replacement": "http://ww1.sinaimg.cn/bmiddle/$1",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.panel-body.markdown > p"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "span.postcat > a"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "div.info > abbr"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div.info > ul > li.name"
+        }
+    },
+    "galleryUrl": "http://www.dbmeinv.com/dbgroup/{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "ul.hot-list > li > div.thumbnail > div.img_single > a.link > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://www.dbmeinv.com/dbgroup/(.*)",
+            "selector": "ul.hot-list > li > div.thumbnail > div.img_single > a.link"
+        },
+        "item": {
+            "selector": "ul.hot-list > li"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "ul.hot-list > li > div.yuan_middle > div.sheng_img > img.yuan_pic"
+        }
+    },
+    "indexUrl": "http://www.dbmeinv.com/?pager_offset={page:1}",
+    "sid": 401,
+    "title": "豆瓣美女"
+}
