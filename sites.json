@@ -78,9 +78,9 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/豆瓣美女.png",
                 "description": "豆瓣美女 - 豆瓣妹子 - 豆瓣福利 | 真实的妹子私房照分享社区",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/豆瓣美女.txt",
-                "versionCode": 1,
-                "lastUpdate": "2016-11-04 21:30:00",
-                "r18": true
+                "versionCode": 2,
+                "lastUpdate": "2016-11-11 09:59:00",
+                "r18": false
             }
         ]
     },
