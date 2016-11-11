@@ -176,24 +176,24 @@
         "cover": {
             "fun": "attr",
             "param": "src",
-            "selector": "ul.hot-list > li > div.thumbnail > div.img_single > a.link > img"
+            "selector": "li.span3 > div.thumbnail > div.img_single > a.link > img"
         },
         "idCode": {
             "fun": "attr",
             "param": "href",
             "regex": "http://www.dbmeinv.com/dbgroup/(.*)",
-            "selector": "ul.hot-list > li > div.thumbnail > div.img_single > a.link"
+            "selector": "li.span3 > div.thumbnail > div.img_single > a.link"
         },
         "item": {
-            "selector": "ul.hot-list > li"
+            "selector": "li.span3"
         },
         "title": {
             "fun": "attr",
             "param": "title",
-            "selector": "ul.hot-list > li > div.yuan_middle > div.sheng_img > img.yuan_pic"
+            "selector": "li.span3 > div.thumbnail > div.img_single > a.link > img"
         }
     },
     "indexUrl": "http://www.dbmeinv.com/?pager_offset={page:1}",
-    "sid": 401,
+    "sid": 1,
     "title": "豆瓣美女"
 }
