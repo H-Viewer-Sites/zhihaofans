@@ -3,22 +3,22 @@
         {
             "cid": 1,
             "title": "最新发布",
-            "url": "http://api.zhihaofans.com/acfun/comic/?sort=4&page={page:1}"
+            "url": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=4&page={page:1}"
         },
         {
             "cid": 2,
             "title": "最新回复",
-            "url": "http://api.zhihaofans.com/acfun/comic/?sort=5&page={page:1}"
+            "url": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=5&page={page:1}"
         },
         {
             "cid": 3,
             "title": "最多围观",
-            "url": "http://api.zhihaofans.com/acfun/comic/?sort=1&page={page:1}"
+            "url": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=1&page={page:1}"
         },
         {
             "cid": 4,
             "title": "最多评论",
-            "url": "http://api.zhihaofans.com/acfun/comic/?sort=2&page={page:1}"
+            "url": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=2&page={page:1}"
         }
     ],
     "flag": "preloadGallery|noRating",
@@ -58,7 +58,7 @@
         },
         "item": {
             "path": "$.data.list",
-            "regex": "(?:漫画|条漫|彩漫)"
+            "regex": "(?:漫画|条漫|彩漫|汉化|字幕组|AC娘)"
         },
         "title": {
             "path": "$.title"
@@ -73,7 +73,7 @@
             "path": "$.tags"
         }
     },
-    "indexUrl": "http://api.zhihaofans.com/acfun/comic/?sort=4&page={page:1}",
+    "indexUrl": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=4&page={page:1}",
     "searchRule": {
         "cover": {
             "path": "$.cover"
@@ -82,7 +82,8 @@
             "path": "$.contentId"
         },
         "item": {
-            "path": "$.data.list"
+            "path": "$.data.list",
+            "regex": "(?:漫画|条漫|彩漫|汉化|字幕组|AC娘)"
         },
         "title": {
             "path": "$.title"
@@ -97,7 +98,8 @@
             "path": "$.tags"
         }
     },
-    "searchUrl": "http://api.zhihaofans.com/acfun/comic/?search={keyword:}&page={page:1}",
+    "searchUrl": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=4&q={keyword:}&page={page:1}",
+    "header":"deviceType:1",
     "sid": 3,
     "title": "AcFun漫画"
 }
