@@ -48,7 +48,7 @@
             "selector": "div#area-player"
         }
     },
-    "galleryUrl": "http://www.acfun.tv/a/ac{idCode:}",
+    "galleryUrl": "http://www.acfun.tv/a/ac{idCode:}_{page:1}",
     "indexRule": {
         "cover": {
             "path": "$.cover"
