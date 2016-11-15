@@ -99,10 +99,10 @@
         "sites": [
             {
                 "sid": 110,
-                "title": "DeviantArt",
+                "title": "deviantART",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/deviantart.png",
-                "description": "The largest online art gallery and community.",
+                "description": "deviantART是一个为艺术家展示各自作品、并交流讨论而设计的社交网络服务网站。",
                 "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/deviantart.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-11-15 17:25:23",
