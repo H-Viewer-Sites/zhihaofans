@@ -96,7 +96,19 @@
         "title": "素材图站",
         "english": "Resource Sites",
         "r18": false,
-        "sites": []
+        "sites": [
+            {
+                "sid": 110,
+                "title": "DeviantArt",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/deviantart.png",
+                "description": "The largest online art gallery and community.",
+                "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/deviantart.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-15 17:25:23",
+                "r18": false
+            }
+        ]
     },
     {
         "cid": 6,
