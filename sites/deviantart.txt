@@ -63,28 +63,6 @@
                 "selector": "this"
             }
         },
-        "commentRule": {
-            "author": {
-                "fun": "html",
-                "selector": "div.ch-ctrl > div.ctext.ch > div.ch-ctrl.cc-in > div.cc-meta > span.cc-name > span.username-with-symbol.u > a.u.regular.username"
-            },
-            "content": {
-                "fun": "html",
-                "selector": "div.ch-ctrl > div.ctext.ch > div.ch-ctrl.cc-in > div.text.text-ii"
-            },
-            "avatar": {
-                "fun": "attr",
-                "param": "src",
-                "selector": "div.ch-ctrl > span.cc-avatar > a > img.avatar"
-            },
-            "datetime": {
-                "fun": "html",
-                "selector": "div.ch-ctrl > div.ctext.ch > div.ch-ctrl.cc-in > div.cc-meta > span.cc-time > a"
-            },
-            "item": {
-                "selector": "div.ccomment.ch"
-            }
-        },
         "description": {
             "fun": "html",
             "selector": "div.text.block"
