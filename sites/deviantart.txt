@@ -129,5 +129,5 @@
     "searchUrl": "http://www.deviantart.com/browse/all/?section=&global=1&q={keyword:}&offset=0",
     "loginUrl": "https://www.deviantart.com/users/login",
     "sid": 1,
-    "title": "DeviantArt"
+    "title": "deviantART"
 }
