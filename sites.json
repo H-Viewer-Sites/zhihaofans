@@ -80,7 +80,7 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/豆瓣美女.txt",
                 "versionCode": 2,
                 "lastUpdate": "2016-11-11 09:59:00",
-                "r18": true
+                "r18": false
             }
         ]
     },
@@ -98,7 +98,7 @@
         "r18": false,
         "sites": [
             {
-                "sid": 110,
+                "sid": 501,
                 "title": "deviantART",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/deviantart.png",
@@ -106,6 +106,17 @@
                 "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/deviantart.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-11-15 17:25:23",
+                "r18": false
+            }，
+            {
+                "sid": 502,
+                "title": "图虫",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/图虫.png",
+                "description": "deviantART是一个为艺术家展示各自作品、并交流讨论而设计的社交网络服务网站。",
+                "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/图虫.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-22 04:40:00",
                 "r18": false
             }
         ]
