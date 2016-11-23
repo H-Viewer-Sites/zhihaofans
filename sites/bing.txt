@@ -1,0 +1,30 @@
+{
+    "flag": "noRating|waterfallAsList|onePicGallery",
+    "galleryUrl": "https://www.bing.com/az/hprichbg/rb/{idCode:}_1920x1080.jpg",
+    "indexRule": {
+        "title": {
+            "path": "$.startdate"
+        },
+        "cover": {
+            "path": "$.url",
+            "regex": "(.*)",
+            "replacement": "https://www.bing.com$1"
+        },
+        "item": {
+            "path": "$.images"
+        },
+        "datetime": {
+            "path": "$.startdate"
+        },
+        "description": {
+            "path": "$.copyright"
+        },
+        "idCode": {
+            "regex": "/az/hprichbg/rb/(.*)",
+            "path": "$.urlbase"
+        }
+    },
+    "indexUrl": "http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=2222&mkt=en-WW",
+    "sid": 2,
+    "title": "必应每日一图"
+}
