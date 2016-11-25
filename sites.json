@@ -118,6 +118,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-11-22 04:40:00",
                 "r18": false
+            },
+            {
+                "sid": 503,
+                "title": "必应每日一图",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/bing.png",
+                "description": "必应每日一图。",
+                "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/bing.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-25 13:10:00",
+                "r18": false
             }
         ]
     },
