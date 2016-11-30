@@ -6,7 +6,7 @@
         "r18": false,
         "sites": [
             {
-                "sid": 107,
+                "sid": 101,
                 "title": "A区",
                 "author": "zhihaofans",
                 "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/A区.png",
@@ -17,7 +17,7 @@
                 "r18": false
             },
             {
-                "sid": 108,
+                "sid": 102,
                 "title": "AcFun漫画",
                 "author": "zhihaofans",
                 "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/AcFun漫画.png",
@@ -28,7 +28,7 @@
                 "r18": false
             },
             {
-                "sid": 109,
+                "sid": 103,
                 "title": "羁绊网",
                 "author": "zhihaofans",
                 "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/羁绊网.png",
@@ -39,7 +39,7 @@
                 "r18": false
             },
             {
-                "sid": 110,
+                "sid": 104,
                 "title": "胖次网",
                 "author": "zhihaofans",
                 "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/胖次网.png",
@@ -47,6 +47,17 @@
                 "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/胖次网.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-11-01 01:09:23",
+                "r18": false
+            },
+            {
+                "sid": 105,
+                "title": "卖萌网",
+                "author": "zhihaofans",
+                "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/卖萌网.png",
+                "description": "卖萌 - MAG.MOE",
+                "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/卖萌网.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-01 01:00:00",
                 "r18": false
             }
         ]

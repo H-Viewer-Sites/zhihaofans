@@ -1,0 +1,98 @@
+{
+    "categories": [
+        {
+            "url": "https://mag.moe/category/cosplay{pageStr:/page/{page:1}}",
+            "title": "COSPLAY",
+            "cid": 1
+        },
+        {
+            "url": "https://mag.moe/category/images{pageStr:/page/{page:1}}",
+            "title": "萌美图",
+            "cid": 2
+        },
+        {
+            "url": "https://mag.moe/category/celebrity{pageStr:/page/{page:1}}",
+            "title": "萌星星",
+            "cid": 3
+        }
+    ],
+    "flag": "preloadGallery|noRating|waterfallAsList",
+    "galleryRule": {
+        "datetime": {
+            "fun": "html",
+            "selector": "span.posttime"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div#main article img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.post-tags > a"
+        }
+    },
+    "galleryUrl": "https://mag.moe/{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.post-img > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "id",
+            "regex": "post-(.+)",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "div#main > article.list-item.post.type-post"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.list-content > div.post-entry > p"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.list-content > div.post-header > h2 > a"
+        }
+    },
+    "indexUrl": "https://mag.moe/category/cosplay{pageStr:/page/{page:1}}",
+    "searchRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.post-img > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "id",
+            "regex": "post-(.+)",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "div#main > article.list-item.post.type-post"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.list-content > div.post-entry > p"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "div.list-content > div.post-header > h2 > a"
+        }
+    },
+    "searchUrl": "https://mag.moe/{pageStr:/page/{page:1}}?s={keyword:}",
+    "sid": 1,
+    "title": "卖萌网"
+}
