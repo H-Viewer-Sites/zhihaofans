@@ -115,6 +115,17 @@
                 "versionCode": 2,
                 "lastUpdate": "2016-11-11 09:59:00",
                 "r18": false
+            },
+            {
+                "sid": 402,
+                "title": "girlimg",
+                "author": "zhihaofans",
+                "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/girlimg.png",
+                "description": "图片来自tumblr服务器，请自备梯子。",
+                "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/girlimg.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-01 14:00:00",
+                "r18": true
             }
         ]
     },
