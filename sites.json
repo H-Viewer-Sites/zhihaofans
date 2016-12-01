@@ -75,8 +75,8 @@
                 "icon": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/icons/Danbooru.png",
                 "description": "Danbooru的图集",
                 "json": "https://github.com/H-Viewer-Sites/zhihaofans/raw/master/sites/Danbooru.Pool.txt",
-                "versionCode": 1,
-                "lastUpdate": "2016-12-01 12:00:00",
+                "versionCode": 2,
+                "lastUpdate": "2016-12-01 13:00:00",
                 "r18": false
             },
             {
