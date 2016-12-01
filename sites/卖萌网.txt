@@ -16,7 +16,7 @@
             "cid": 3
         }
     ],
-    "flag": "preloadGallery|noRating|waterfallAsList",
+    "flag": "preloadGallery|noRating",
     "galleryRule": {
         "datetime": {
             "fun": "html",
