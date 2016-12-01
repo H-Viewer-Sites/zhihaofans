@@ -1,0 +1,85 @@
+{
+    "categories": [
+        {
+            "url": "http://www.cosplayla.com/picture-4/?page={page:1}",
+            "title": "CSOPLAY正片",
+            "cid": 1
+        },
+        {
+            "url": "http://www.cosplayla.com/picture-5/?page={page:1}",
+            "title": "CSOPLAY预告片",
+            "cid": 2
+        },
+        {
+            "url": "http://www.cosplayla.com/picture-7/?page={page:1}",
+            "title": "CSOPLAY现场照",
+            "cid": 3
+        }
+    ],
+    "flag": "waterfallAsList|noRating|noTag|preloadGallery",
+    "galleryRule": {
+        "description": {
+            "fun": "html",
+            "regex": "(.+)<div class=\"pinfo\">",
+            "selector": "div.zppicinfo"
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}-\\d{1,2}-\\d{1,2} \\d{1,2}:\\d{1,2}:\\d{1,2})",
+            "selector": "div.ptime1"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "div.pinfo img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.+)_750.([a-z]+)",
+                "replacement": "$1.$2",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "http://www.cosplayla.com{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.pic > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "div.pic > a"
+        },
+        "item": {
+            "selector": "div.ips > div.ipsi"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "alt",
+            "selector": "div.pic > a > img"
+        },
+        "uploader": {
+            "fun": "html",
+            "regex": "(.+)",
+            "replacement": "CN:$1",
+            "selector": "ul.txt > li.c"
+        },
+        "category": {
+            "fun": "html",
+            "regex": "(.+)",
+            "replacement": ":$1",
+            "selector": "ul.txt > li.i"
+        }
+    },
+    "indexUrl": "http://www.cosplayla.com/picture-4/?page={page:1}",
+    "sid": 1,
+    "title": "cosplay啦"
+}
