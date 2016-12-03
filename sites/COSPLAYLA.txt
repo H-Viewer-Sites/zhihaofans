@@ -2,17 +2,17 @@
     "categories": [
         {
             "url": "http://www.cosplayla.com/picture-4/?page={page:1}",
-            "title": "CSOPLAY正片",
+            "title": "COSPLAY正片",
             "cid": 1
         },
         {
             "url": "http://www.cosplayla.com/picture-5/?page={page:1}",
-            "title": "CSOPLAY预告片",
+            "title": "COSPLAY预告片",
             "cid": 2
         },
         {
             "url": "http://www.cosplayla.com/picture-7/?page={page:1}",
-            "title": "CSOPLAY现场照",
+            "title": "COSPLAY现场照",
             "cid": 3
         }
     ],
