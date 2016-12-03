@@ -81,5 +81,5 @@
     },
     "indexUrl": "http://www.cosplayla.com/picture-4/?page={page:1}",
     "sid": 1,
-    "title":"COSOLAY啦"
+    "title":"COSPLAY啦"
 }
