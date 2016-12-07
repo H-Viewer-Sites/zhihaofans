@@ -1,0 +1,68 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "所有壁纸",
+            "url": "http://www.backdrops.io/walls/api.php?task=all_wallpapers"
+        },
+        {
+            "cid": 2,
+            "title": "最新壁纸",
+            "url": "http://www.backdrops.io/walls/api.php?task=recent_wallpaper"
+        },
+        {
+            "cid": 3,
+            "title": "Community 壁纸",
+            "url": "http://www.backdrops.io/walls/api.php?task=social_wallpaper&sort=0"
+        }
+    ],
+    "flag": "onePicGallery|noRating",
+    "galleryUrl": "http://www.backdrops.io/walls/upload/{idCode:}",
+    "indexRule": {
+        "cover": {
+            "path": "$.wallpaper_thumb"
+        },
+        "idCode": {
+            "path": "$.wallpaper_image"
+        },
+        "item": {
+            "path": "$.entertainment"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "description": {
+            "path": "$.description"
+        },
+        "uploader": {
+            "path": "$.user"
+        },
+        "tags": {
+            "path": "$.tag"
+        },
+        "datetime": {
+            "path": "$.size"
+        },
+        "category": {
+            "path": "$.category_name"
+        },
+        "pictureRule": {
+            "thumbnail": {
+                "param": "src",
+                "regex": "(.+)",
+                "replacement": "http://www.backdrops.io/walls/upload/$1",
+                "path": "$.wallpaper_thumb"
+            },
+            "url": {
+                "param": "src",
+                "regex": "(.+)",
+                "replacement": "http://www.backdrops.io/walls/upload/$1",
+                "path": "$.wallpaper_image"
+            }
+        }
+    },
+    "indexUrl": "http://www.backdrops.io/walls/api.php?task=all_wallpapers",
+    "searchUrl": "http://www.backdrops.io/walls/api.php?task=search&query={keyword:}",
+    "sid": 3,
+    "title": "Backdrops.io"
+}

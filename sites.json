@@ -174,6 +174,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-11-25 13:10:00",
                 "r18": false
+            },
+            {
+                "sid": 504,
+                "title": "Backdrops.io",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/backdrops.io.png",
+                "description": "Backdrops壁纸，每日更新。警告:每页有上千张图(因为只有一页)，所以手机、网络辣鸡的请谨慎添加本站点，挂梯子效果更佳。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/backdrops.io.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-08 00:40:00",
+                "r18": false
             }
         ]
     },
