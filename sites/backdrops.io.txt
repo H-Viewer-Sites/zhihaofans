@@ -20,6 +20,8 @@
     "galleryUrl": "http://www.backdrops.io/walls/upload/{idCode:}",
     "indexRule": {
         "cover": {
+            "regex": "(.+)",
+            "replacement": "http://www.backdrops.io/walls/upload/$1",
             "path": "$.wallpaper_thumb"
         },
         "idCode": {
@@ -47,6 +49,23 @@
             "path": "$.category_name"
         },
         "pictureRule": {
+            "thumbnail": {
+                "regex": "(.+)",
+                "replacement": "http://www.backdrops.io/walls/upload/$1",
+                "path": "$.wallpaper_thumb"
+            },
+            "url": {
+                "regex": "(.+)",
+                "replacement": "http://www.backdrops.io/walls/upload/$1",
+                "path": "$.wallpaper_image"
+            }
+        }
+    },
+    "indexUrl": "http://www.backdrops.io/walls/api.php?task=all_wallpapers",
+    "searchUrl": "http://www.backdrops.io/walls/api.php?task=search&query={keyword:}",
+    "sid": 3,
+    "title": "Backdrops.io"
+}
             "thumbnail": {
                 "param": "src",
                 "regex": "(.+)",
