@@ -14,6 +14,31 @@
             "url": "https://mag.moe/category/celebrity{pageStr:/page/{page:1}}",
             "title": "萌星星",
             "cid": 3
+        },
+        {
+            "url": "https://mag.moe/category/doujin{pageStr:/page/{page:1}}",
+            "title": "萌同人",
+            "cid": 4
+        },
+        {
+            "url": "https://mag.moe/category/toys{pageStr:/page/{page:1}}",
+            "title": "萌玩具",
+            "cid": 5
+        },
+        {
+            "url": "https://mag.moe/category/schedule/manga{pageStr:/page/{page:1}}",
+            "title": "萌新番-漫画",
+            "cid": 6
+        },
+        {
+            "url": "https://mag.moe/category/schedule/anime{pageStr:/page/{page:1}}",
+            "title": "萌新番-动画",
+            "cid": 7
+        },
+        {
+            "url": "https://mag.moe/category/schedule/game{pageStr:/page/{page:1}}",
+            "title": "萌新番-游戏",
+            "cid": 8
         }
     ],
     "flag": "preloadGallery|noRating",
@@ -36,10 +61,6 @@
                 "param": "src",
                 "selector": "this"
             }
-        },
-        "tags": {
-            "fun": "html",
-            "selector": "div.post-tags > a"
         }
     },
     "galleryUrl": "https://mag.moe/{idCode:}",
@@ -65,33 +86,13 @@
         "title": {
             "fun": "html",
             "selector": "div.list-content > div.post-header > h2 > a"
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "div.list-content > div.post-header > span.cat > a"
         }
     },
     "indexUrl": "https://mag.moe/category/cosplay{pageStr:/page/{page:1}}",
-    "searchRule": {
-        "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "div.post-img > a > img"
-        },
-        "idCode": {
-            "fun": "attr",
-            "param": "id",
-            "regex": "post-(.+)",
-            "selector": "this"
-        },
-        "item": {
-            "selector": "div#main > article.list-item.post.type-post"
-        },
-        "description": {
-            "fun": "html",
-            "selector": "div.list-content > div.post-entry > p"
-        },
-        "title": {
-            "fun": "html",
-            "selector": "div.list-content > div.post-header > h2 > a"
-        }
-    },
     "searchUrl": "https://mag.moe/{pageStr:/page/{page:1}}?s={keyword:}",
     "sid": 1,
     "title": "卖萌网"
