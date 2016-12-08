@@ -63,6 +63,6 @@
     },
     "indexUrl": "http://www.backdrops.io/walls/api.php?task=all_wallpapers",
     "searchUrl": "http://www.backdrops.io/walls/api.php?task=search&query={keyword:}",
-    "sid": 3,
-    "title": "Backdrops.io"
+    "sid": 3,
+    "title": "Backdrops.io"
 }
