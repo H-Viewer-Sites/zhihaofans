@@ -61,5 +61,5 @@
     "indexUrl": "https://finda.photo/search?q=&page={page:1}",
     "searchUrl": "https://finda.photo/search?q={keyword:}&page={page:1}",
     "sid": 1,
-    "title": "finda.photo"
+    "title": "FindA.Photo"
 }
