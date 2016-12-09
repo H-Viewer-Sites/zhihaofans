@@ -1,0 +1,87 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "全部",
+            "url": "http://www.tngou.net/tnfs/api/list?page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "性感美女",
+            "url": "http://www.tngou.net/tnfs/api/list?id=1&page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "韩日美女",
+            "url": "http://www.tngou.net/tnfs/api/list?id=2&page={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "丝袜美腿",
+            "url": "http://www.tngou.net/tnfs/api/list?id=3&page={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "美女照片",
+            "url": "http://www.tngou.net/tnfs/api/list?id=4&page={page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "美女写真",
+            "url": "http://www.tngou.net/tnfs/api/list?id=5&page={page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "清纯美女",
+            "url": "http://www.tngou.net/tnfs/api/list?id=6&page={page:1}"
+        },
+        {
+            "cid": 8,
+            "title": "性感车模",
+            "url": "http://www.tngou.net/tnfs/api/list?id=7&page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery|noRating|noTag",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "path": "$.list"
+            },
+            "thumbnail": {
+                "regex": "(.+)",
+                "replacement": "http://tnfs.tngou.net/image$1",
+                "path": "$.src"
+            },
+            "url": {
+                "regex": "(.+)",
+                "replacement": "http://tnfs.tngou.net/image$1",
+                "path": "src"
+            }
+        }
+    },
+    "galleryUrl": "http://www.tngou.net/tnfs/api/show?id={idCode:}",
+    "indexRule": {
+        "cover": {
+            "regex": "(.+)",
+            "replacement": "http://tnfs.tngou.net/image$1",
+            "path": "$.img"
+        },
+        "idCode": {
+            "path": "$.id"
+        },
+        "item": {
+            "path": "$.tngou"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "datetime": {
+            "regex": "(.+)",
+            "replacement": "$1 页",
+            "path": "$.size"
+        }
+    },
+    "indexUrl": "http://www.tngou.net/tnfs/api/list?page={page:1}",
+    "sid": 3,
+    "title": "天狗美阅"
+}

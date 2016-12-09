@@ -126,6 +126,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-12-01 14:00:00",
                 "r18": true
+            },
+            {
+                "sid": 403,
+                "title": "天狗美阅",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天狗美阅.png",
+                "description": "天狗美阅 - 美女 性感 诱惑 日韩_打造时尚开放美图(服务器网速很慢！)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/天狗美阅.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-08 23:00:00",
+                "r18": false
             }
         ]
     },
@@ -173,6 +184,17 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/bing.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-11-25 13:10:00",
+                "r18": false
+            },
+            {
+                "sid": 504,
+                "title": "FindA.Photo",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/FindA.Photo.png",
+                "description": "FindA.Photo: 10,000 completely free stock photos to use for any purpose",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/FindA.Photo.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-09 13:10:00",
                 "r18": false
             }
         ]
