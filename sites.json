@@ -59,6 +59,28 @@
                 "versionCode": 4,
                 "lastUpdate": "2016-12-08 01:00:00",
                 "r18": false
+            },
+            {
+                "sid": 106,
+                "title": "zerochan",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/zerochan.png",
+                "description": "zerochan",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/zerochan.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-17 01:00:00",
+                "r18": false
+            },
+            {
+                "sid": 107,
+                "title": "兔窝儿",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/兔窝儿.png",
+                "description": "宅腐萌的二次元根据地",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/兔窝儿.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-17 01:00:00",
+                "r18": false
             }
         ]
     },

@@ -1,0 +1,64 @@
+{
+    "categories": [
+        {
+            "url": "http://tuwoer.com/index/index/page/{page:1}.html",
+            "title": "全站",
+            "cid": 1
+        }
+    ],
+    "flag": "preloadGallery|noRating|noTitle|waterfallAsList",
+    "indexRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "a > div.card_one_picture > img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.+)!thumb",
+                "selector": "this"
+            }
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a > div.card_one_picture > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "id",
+            "regex": "pic_id_(\\d+)",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "div.card"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.card_one_content > div.card_one_content_text"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "div.card_one > div.card_one_right"
+        },
+        "tags": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/tags/key/(.+)",
+            "selector": "div.card_one_content > div.card_one_content_text > a"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div.card_one > div.card_one_left > a"
+        }
+    },
+    "indexUrl": "http://tuwoer.com/index/index/page/{page:1}.html",
+    "searchUrl": "http://tuwoer.com/search/key/{keyword:}/page/{page:1}",
+    "sid": 101,
+    "title": "兔窝儿"
+}
