@@ -191,10 +191,21 @@
                 "title": "FindA.Photo",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/FindA.Photo.png",
-                "description": "FindA.Photo: 10,000 completely free stock photos to use for any purpose",
+                "description": "FindA.Photo: 提供可免费使用的图片(包括商业)。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/FindA.Photo.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-12-09 13:10:00",
+                "r18": false
+            },
+            {
+                "sid": 505,
+                "title": "Unsplash",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Unsplash.png",
+                "description": "Free High-Resolution Photos.",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Unsplash.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-16 13:00:00",
                 "r18": false
             }
         ]
