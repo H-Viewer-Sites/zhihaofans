@@ -54,7 +54,30 @@
         "datetime": {
             "fun": "html",
             "selector": "div#content > p > span"
+        },
+        "commentRule": {
+            "avatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div > p.avatar > img"
+            },
+            "author": {
+                "fun": "html",
+                "selector": "div > p > a"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div > span"
+            },
+            "content": {
+                "fun": "html",
+                "selector": "div:eq(1) > p"
+            },
+            "item": {
+                "selector": "div#posts > ul > li"
+            }
         }
+
     },
     "galleryUrl": "http://www.zerochan.net/{idCode:}",
     "indexRule": {
@@ -84,7 +107,7 @@
         }
     },
     "indexUrl": "http://www.zerochan.net/?p={page:1}",
-    "searchUrl": "http://tuwoer.com/search/key/{keyword:}/page/{page:1}",
+    "searchUrl": "http://www.zerochan.net/search?q={keyword:}&p={page:1}",
     "sid": 101,
     "title": "zerochan"
 }

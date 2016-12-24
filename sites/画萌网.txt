@@ -1,0 +1,116 @@
+{
+    "categories": [
+        {
+            "url": "http://huamoe.com/works?page={page:1}",
+            "title": "全部",
+            "cid": 1
+        },
+        {
+            "url": "http://huamoe.com/works?official=1…&page={page:1}",
+            "title": "官方推荐",
+            "cid": 2
+        },
+        {
+            "url": "http://huamoe.com/works?&type=0&page={page:1}",
+            "title": "最新同人",
+            "cid": 3
+        },
+        {
+            "url": "http://huamoe.com/works?&type=1&page={page:1}",
+            "title": "最新原画",
+            "cid": 4
+        },
+        {
+            "url": "http://huamoe.com/works/ranking/11",
+            "title": "日点赞榜",
+            "cid": 5
+        },
+        {
+            "url": "http://huamoe.com/works/ranking/12",
+            "title": "周点赞榜",
+            "cid": 6
+        },
+        {
+            "url": "http://huamoe.com/works/ranking/10",
+            "title": "总点赞榜",
+            "cid": 7
+        },
+        {
+            "url": "http://huamoe.com/works/favorite_ranking",
+            "title": "总收藏榜",
+            "cid": 8
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "a[data-lightbox='lightbox'"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "html",
+            "selector": "a.tag.tag-info"
+        },
+        "title": {
+            "fun": "html",
+            "regex": "(.+)<div class=\"pull-right\"",
+            "selector": "div.panel-heading > h3"
+        },
+        "uploader": {
+            "fun": "html",
+            "regex": "(.+)",
+            "selector": "div.panel-body.text-center > a > h5"
+        }
+    },
+    "galleryUrl": "http://huamoe.com{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "regex": "(.+)?imageMogr2",
+            "replacement": "$1/w650",
+            "selector": "a.works-cover > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "a"
+        },
+        "item": {
+            "selector": "li.span1"
+        },
+        "title": {
+            "fun": "html",
+            "selector": "span.title"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "div.time"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "div.works-desc > a"
+        },
+        "category": {
+            "fun": "html",
+            "regex": "(\\d)P",
+            "replacement": "共 $1 页",
+            "selector": "a.works-cover > span.countBadge"
+        }
+    },
+    "indexUrl": "http://huamoe.com/works?page={page:1}",
+    "searchUrl": "http://tuwoer.com/search/key/{keyword:}/page/{page:1}",
+    "sid": 101,
+    "title": "画萌网"
+}

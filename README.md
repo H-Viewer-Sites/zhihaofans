@@ -2,7 +2,7 @@
 ------
 网站建议提交请前往 [H-Viewer-Sites/Apply](https://github.com/H-Viewer-Sites/Apply/issues/new)
 
-安卓图册阅览器 [`H-Viewer`](https://github.com/PureDark/H-Viewer)的[站点配置文件](https://github.com/H-Viewer-Sites/Index)
+安卓图册阅览   器 [`H-Viewer`](https://github.com/PureDark/H-Viewer)的[站点配置文件](https://github.com/H-Viewer-Sites/Index)
 
 | Sites  | Sites  |
 | ------------- | ------------- |
