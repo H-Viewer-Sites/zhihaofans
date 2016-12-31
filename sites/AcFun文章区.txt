@@ -1,0 +1,100 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "漫画",
+            "url": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=4&page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "动漫",
+            "url": "http://api.aixifan.com/searches/channel?channelIds=74&pageSize=20&sort=4&page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "综合",
+            "url": "http://api.aixifan.com/searches/channel?channelIds=110&pageSize=20&sort=4&page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div#area-player img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "datetime": {
+            "fun": "html",
+            "regex": "(\\d{4}年 \\d{1,2}月\\d{1,2}日 \\d{2}:\\d{2})",
+            "selector": "span.time"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div#area-player"
+        }
+    },
+    "galleryUrl": "http://www.acfun.cn/a/ac{idCode:}_{page:1}",
+    "indexRule": {
+        "cover": {
+            "path": "$.cover"
+        },
+        "idCode": {
+            "path": "$.contentId"
+        },
+        "item": {
+            "path": "$.data.list",
+            "regex": "(?:漫画|条漫|彩漫|汉化|字幕组|AC娘|壁纸|pixiv|绘图)"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "description": {
+            "path": "$.description"
+        },
+        "uploader": {
+            "path": "$.user.username"
+        },
+        "tags": {
+            "path": "$.tags"
+        }
+    },
+    "indexUrl": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=4&page={page:1}",
+    "searchRule": {
+        "cover": {
+            "path": "$.cover"
+        },
+        "idCode": {
+            "path": "$.contentId"
+        },
+        "item": {
+            "path": "$.data.list",
+            "regex": "(?:漫画|条漫|彩漫|汉化|字幕组|AC娘|壁纸|pixiv|绘图)"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "description": {
+            "path": "$.description"
+        },
+        "uploader": {
+            "path": "$.user.username"
+        },
+        "tags": {
+            "path": "$.tags"
+        }
+    },
+    "searchUrl": "http://api.aixifan.com/searches/channel?channelIds=75&pageSize=20&sort=4&q={keyword:}&page={page:1}",
+    "header":"deviceType:1",
+    "sid": 3,
+    "title": "AcFun文章区"
+}

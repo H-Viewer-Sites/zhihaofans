@@ -18,13 +18,13 @@
             },
             {
                 "sid": 102,
-                "title": "AcFun漫画",
+                "title": "AcFun文章区",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/AcFun漫画.png",
-                "description": "AcFun文章区的漫画/小说版块，只取其中的漫画",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/AcFun漫画.txt",
-                "versionCode": 3,
-                "lastUpdate": "2016-11-13 20:35:00",
+                "description": "AcFun文章区(原'AcFun漫画')",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/AcFun文章区.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-31 20:30:00",
                 "r18": false
             },
             {
