@@ -159,6 +159,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-12-08 23:00:00",
                 "r18": false
+            },
+            {
+                "sid": 404,
+                "title": "动漫之家",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/动漫之家.png",
+                "description": "动漫之家的美图欣赏分类",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/动漫之家.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-02-23 00:30:00",
+                "r18": false
             }
         ]
     },

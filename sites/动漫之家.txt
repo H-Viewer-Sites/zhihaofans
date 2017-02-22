@@ -1,0 +1,59 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "美图欣赏",
+            "url": "http://v2.api.dmzj.com/article/list/v2/8/2/{page:1}.json"
+        }
+    ],
+    "flag": "preloadGallery|noRating|noTag",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div.news_box img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-original",
+                "selector": "this"
+            }
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "div.news_info_bar > p.txt3"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.news_box"
+        }
+    },
+    "galleryUrl": "http://v2.api.dmzj.com/article/show/v2/{idCode:}.html",
+    "indexRule": {
+        "cover": {
+            "path": "$.col_pic_url"
+        },
+        "idCode": {
+            "path": "$.article_id"
+        },
+        "item": {
+            "path": "$"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "description": {
+            "path": "$.intro"
+        },
+        "uploader": {
+            "path": "$.nickname"
+        }
+    },
+    "indexUrl": "http://v2.api.dmzj.com/article/list/v2/8/2/{page:1}.json",
+    "sid": 3,
+    "title": "动漫之家"
+}
