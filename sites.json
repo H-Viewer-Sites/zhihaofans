@@ -240,6 +240,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-12-16 13:00:00",
                 "r18": false
+            },
+            {
+                "sid": 506,
+                "title": "安卓壁纸",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/安卓壁纸.png",
+                "description": "小米手机助手上的安卓壁纸源",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/安卓壁纸.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-02-23 13:00:00",
+                "r18": false
             }
         ]
     },
