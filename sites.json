@@ -262,6 +262,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-08 20:00:00",
                 "r18": false
+            },
+            {
+                "sid": 508,
+                "title": "P E E K S P A C E",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/peekspace.png",
+                "description": "酷炫到没朋友，所有图片均来自美国宇航局",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/peekspace.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-09 01:00:00",
+                "r18": false
             }
         ]
     },

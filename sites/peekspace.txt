@@ -1,0 +1,33 @@
+{
+    "flag": "noRating|noTag|noTitle|waterfallAsList|onePicGallery",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a > div.image > img"
+        },
+        "pictureRule": {
+            "item": {
+                "selector": "a > div.image > img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.+)/preview.jpg",
+                "replacement": "$1/full.jpg",
+                "selector": "this"
+            }
+        },
+        "item": {
+            "selector": ".mt3"
+        }
+    },
+    "indexUrl": "http://peek.space/page/{page:1}/",
+    "sid": 1,
+    "title": "P E E K S P A C E"
+}
