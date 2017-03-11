@@ -1,0 +1,196 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "性感美女",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=206&p={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "清纯少女",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=207&p={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "明星写真",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=208&p={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "气质型男",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=209&p={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "花样美男",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=210&p={page:1}"
+        },
+        {
+            "cid": 6,
+            "title": "喵星人",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=211&p={page:1}"
+        },
+        {
+            "cid": 7,
+            "title": "汪星人",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=212&p={page:1}"
+        },
+        {
+            "cid": 8,
+            "title": "Q星人",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=213&p={page:1}"
+        },
+        {
+            "cid": 9,
+            "title": "水星人",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=214&p={page:1}"
+        },
+        {
+            "cid": 10,
+            "title": "野星人",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=215&p={page:1}"
+        },
+        {
+            "cid": 11,
+            "title": "动漫",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=216&p={page:1}"
+        },
+        {
+            "cid": 12,
+            "title": "卡通",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=217&p={page:1}"
+        },
+        {
+            "cid": 13,
+            "title": "同人",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=218&p={page:1}"
+        },
+        {
+            "cid": 14,
+            "title": "游戏",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=219&p={page:1}"
+        },
+        {
+            "cid": 15,
+            "title": "创意",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=226&p={page:1}"
+        },
+        {
+            "cid": 16,
+            "title": "插画绘画",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=227&p={page:1}"
+        },
+        {
+            "cid": 17,
+            "title": "影视",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=222&p={page:1}"
+        },
+        {
+            "cid": 18,
+            "title": "体育",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=224&p={page:1}"
+        },
+        {
+            "cid": 19,
+            "title": "简约",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=233&p={page:1}"
+        },
+        {
+            "cid": 20,
+            "title": "黑白",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=236&p={page:1}"
+        },
+        {
+            "cid": 21,
+            "title": "梦幻",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=235&p={page:1}"
+        },
+        {
+            "cid": 22,
+            "title": "文字控",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=237&p={page:1}"
+        },
+        {
+            "cid": 23,
+            "title": "炫酷",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=234&p={page:1}"
+        },
+        {
+            "cid": 24,
+            "title": "平铺",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=238&p={page:1}"
+        },
+        {
+            "cid": 25,
+            "title": "浩瀚宇宙",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=201&p={page:1}"
+        },
+        {
+            "cid": 26,
+            "title": "壮美自然",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=202&p={page:1}"
+        },
+        {
+            "cid": 27,
+            "title": "角落风光",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=203&p={page:1}"
+        },
+        {
+            "cid": 28,
+            "title": "花草集",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=204&p={page:1}"
+        },
+        {
+            "cid": 29,
+            "title": "城市人文",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=205&p={page:1}"
+        },
+        {
+            "cid": 30,
+            "title": "豪车",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=221&p={page:1}"
+        },
+        {
+            "cid": 31,
+            "title": "美食",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=223&p={page:1}"
+        },
+        {
+            "cid": 32,
+            "title": "品牌",
+            "url": "http://download.android.bizhi.sogou.com/list.php?cate_id=225&p={page:1}"
+        }
+    ],
+    "flag": "waterfallAsList|onePicGallery|noRating|noTitle|noTags",
+    "indexRule": {
+        "pictureRule": {
+            "item": {
+                "path": "$.aa"
+            },
+            "thumbnail": {
+                "regex": "(.+)",
+                "replacement": "http://download.android.bizhi.sogou.com/download.php?id=$1",
+                "path": "$"
+            },
+            "url": {
+                "regex": "(.+)",
+                "replacement": "http://download.android.bizhi.sogou.com/download.php?id=$1",
+                "path": "$"
+            }
+        },
+        "cover": {
+            "path": "$.aa",
+            "regex": "(.+)",
+            "replacement": "http://download.android.bizhi.sogou.com/download.php?id=$1"
+        },
+        "idCode": {
+            "path": "$.aa"
+        },
+        "item": {
+            "path": "$.wallpaper"
+        }
+    },
+    "indexUrl": "http://download.android.bizhi.sogou.com/list.php?cate_id=206&p={page:1}",
+    "sid": 3,
+    "title": "搜狗壁纸"
+}
