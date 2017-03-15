@@ -1,0 +1,70 @@
+{
+    "categories": [
+        {
+            "url": "http://www.tianlalu.com/pictures{pageStr:/page/{page:1}/}",
+            "title": "每日图集",
+            "cid": 1
+        },
+        {
+            "url": "http://www.tianlalu.com/emoji{pageStr:/page/{page:1}/}",
+            "title": "野生表情包日常",
+            "cid": 2
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div.td-post-content > p > img"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "tags": {
+            "fun": "text",
+            "selector": "ul.td-tags.td-post-small-box > li > a"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.td-module-meta-info > div.td-post-author-name > a"
+        }
+    },
+    "galleryUrl": "http://www.tianlalu.com/{idCode:}.html",
+    "indexRule": {
+        "datetime": {
+            "fun": "attr",
+            "param": "datetime",
+            "selector": "time.entry-date.updated.td-module-date"
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.td-module-image > div.td-module-thumb > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "div.td-module-image > div.td-module-thumb > a",
+            "regex": "http://www.tianlalu.com/(.+).html"
+        },
+        "item": {
+            "selector": "div.td-modules-container.td-module-with-sidebar > div.td_module_wrap.td-animation-stack"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "div.td-module-image > div.td-module-thumb > a"
+        }
+    },
+    "indexUrl": "http://www.tianlalu.com/pictures{pageStr:/page/{page:1}/}",
+    "sid": 1,
+    "title": "天啦噜"
+}

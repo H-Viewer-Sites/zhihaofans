@@ -81,6 +81,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2016-12-17 01:00:00",
                 "r18": false
+            },
+            {
+                "sid": 108,
+                "title": "天啦噜",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天啦噜.png",
+                "description": "追番撸图尬舞，一个有态度的二次元网站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/天啦噜.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-15 14:04",
+                "r18": false
             }
         ]
     },
