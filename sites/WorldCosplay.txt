@@ -83,5 +83,5 @@
     "loginUrl": "https://m.worldcosplay.net/zh-hans/auth/member/login/",
     "searchUrl": "https://m.worldcosplay.net/api/photo/search?q={keyword:}&page={page:1}&limit=20&p3_photo_list=1",
     "sid": 1,
-    "title": "Cure WorldCosplay"
+    "title": "WorldCosplay"
 }

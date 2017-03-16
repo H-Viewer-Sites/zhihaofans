@@ -184,12 +184,12 @@
             },
             {
                 "sid": 405,
-                "title": "Cure WorldCosplay",
+                "title": "WorldCosplay",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/WorldCosplay.png",
-                "description": "Cure WorldCosplay是一个对全世界Cosplayer开放的网站，欢迎你自由发布Cosplay图像。即使你不是Cosplayer，你也可在此欣赏到全世界高水准的Cosplay图像。",
+                "description": "WorldCosplay是一个对全世界Cosplayer开放的网站，欢迎你自由发布Cosplay图像。即使你不是Cosplayer，你也可在此欣赏到全世界高水准的Cosplay图像。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/WorldCosplay.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2017-03-16 17:00:00",
                 "r18": false
             }
