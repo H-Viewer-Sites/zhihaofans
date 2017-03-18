@@ -317,6 +317,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-11 17:00:00",
                 "r18": false
+            },
+            {
+                "sid": 510,
+                "title": "ArtStation",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/ArtStation.png",
+                "description": "ArtStation是前列的游戏、电影、媒体和娱乐艺术家展示平台。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/ArtStation.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-19 05:00:00",
+                "r18": false
             }
         ]
     },
