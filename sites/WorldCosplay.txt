@@ -35,8 +35,6 @@
     "galleryRule": {
         "pictureRule": {
             "item": {
-                "fun": "attr",
-                "param": "src",
                 "selector": "div.photo"
             },
             "thumbnail": {

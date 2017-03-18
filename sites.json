@@ -92,6 +92,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-15 14:04",
                 "r18": false
+            },
+            {
+                "sid": 109,
+                "title": "Minitokyo",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Minitokyo.png",
+                "description": "minitokyo是个动漫艺术社区。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Minitokyo.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-19 01:00",
+                "r18": false
             }
         ]
     },
@@ -314,6 +325,18 @@
         "title": "视频站",
         "english": "Video Sites",
         "r18": false,
-        "sites": []
+        "sites": [
+            {
+                "sid": 601,
+                "title": "Redtube",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Redtube.png",
+                "description": "全世界最大的成人视频网站PornHub的旗下/兄弟视频网站(无需梯子)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Redtube.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-19 04:00:00",
+                "r18": true
+            }
+        ]
     }
 ]

@@ -1,0 +1,99 @@
+{
+    "categories": [
+        {
+            "url": "http://gallery.minitokyo.net/wallpapers?order=id&page={page:1}",
+            "title": "最新",
+            "cid": 1
+        },
+        {
+            "url": "http://gallery.minitokyo.net/wallpapers?time=1&page={page:1}",
+            "title": "一周内热门",
+            "cid": 2
+        },
+        {
+            "url": "http://gallery.minitokyo.net/wallpapers?time=2&page={page:1}",
+            "title": "一月内热门",
+            "cid": 3
+        },
+        {
+            "url": "http://gallery.minitokyo.net/wallpapers?time=3&page={page:1}",
+            "title": "三月内热门",
+            "cid": 4
+        },
+        {
+            "url": "http://gallery.minitokyo.net/wallpapers?time=4&page={page:1}",
+            "title": "一年内热门",
+            "cid": 5
+        },
+        {
+            "url": "http://gallery.minitokyo.net/wallpapers?time=5&page={page:1}",
+            "title": "全部热门",
+            "cid": 6
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "#preview > a"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div#description"
+        },
+        "datetime": {
+            "fun": "attr",
+            "param": "title",
+            "regex": "([\\d]+)/([\\d]+)/([\\d]+) ([\\d]+):([\\d]+)([am|pm]+)",
+            "replacement": "20$3-$1-$2 $4:$5$6",
+            "selector": "div#menu > dl > dd > span"
+        },
+        "tags": {
+            "fun": "text",
+            "selector": "div#tag-cloud > a"
+        },
+        "category": {
+            "fun": "text",
+            "regex": "([\\d]+x[\\d]+)",
+            "selector": "#preview > p"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div#menu > h2 > a.member"
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "div > a"
+        },
+        "item": {
+            "selector": "ul.wallpapers > li"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "div > a"
+        }
+    },
+    "indexUrl": "http://gallery.minitokyo.net/wallpapers?order=id&page={page:1}",
+    "sid": 101,
+    "title": "Minitokyo"
+}
