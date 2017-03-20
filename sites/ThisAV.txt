@@ -1,0 +1,90 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新影片",
+            "url": "http://www.thisav.com/videos?o=mr&language=chineses&page={page:1}"
+        },
+        {
+            "cid": 2,
+            "title": "最受欢迎",
+            "url": "http://www.thisav.com/videos?o=mv&language=chineses&page={page:1}"
+        },
+        {
+            "cid": 3,
+            "title": "最多收藏",
+            "url": "http://www.thisav.com/videos?o=tr&language=chineses&page={page:1}"
+        },
+        {
+            "cid": 4,
+            "title": "评论最多",
+            "url": "http://www.thisav.com/videos?o=mc&language=chineses&page={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "热门收藏",
+            "url": "http://www.thisav.com/videos?o=tf&language=chineses&page={page:1}"
+        },
+        {
+            "cid": 5,
+            "title": "其他用户观看中",
+            "url": "http://www.thisav.com/videos?o=bw&language=chineses&page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery|noRating|jsNeededGallery",
+    "galleryRule": {
+        "videoRule": {
+            "content": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "video > source"
+            }
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.video-info-left > a"
+        },
+        "tags": {
+            "fun": "text",
+            "selector": "div.video_tags > a"
+        },
+        "datetime": {
+            "fun": "html",
+            "selector": "div.video_addtime"
+        }
+    },
+    "galleryUrl": "http://www.thisav.com/video/{idCode:}/",
+    "indexRule": {
+        "cover": {
+            "selector": "a > img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "category": {
+            "fun": "text",
+            "selector": "div.box_left"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "id",
+            "regex": "rotate_(.*)",
+            "selector": "a > img"
+        },
+        "item": {
+            "selector": "div.box > div.video_box"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "title",
+            "selector": "a > img"
+        }
+    },
+    "indexUrl": "http://www.thisav.com/videos?o=mr&language=chineses&page={page:1}",
+    "loginUrl": "http://www.thisav.com/login",
+    "searchUrl": "http://www.thisav.com/search?o=mr&for=videos&r=&min=&max=&query={keyword:}&page={page:1}",
+    "sid": 1,
+    "title": "ThisAV"
+}
