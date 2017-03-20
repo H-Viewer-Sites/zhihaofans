@@ -192,5 +192,5 @@
     },
     "indexUrl": "http://download.android.bizhi.sogou.com/list.php?cate_id=206&p={page:1}",
     "sid": 3,
-    "title": "搜狗壁纸"
+    "title": "搜狗壁纸Android"
 }
