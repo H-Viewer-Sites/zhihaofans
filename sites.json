@@ -328,6 +328,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-19 05:00:00",
                 "r18": false
+            },
+            {
+                "sid": 510,
+                "title": "Wallzy",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Wallzy.png",
+                "description": "安卓APP---《Wallzy》的图片，图源估计是Unsplash",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Wallzy.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-23 00:00:00",
+                "r18": false
             }
         ]
     },

@@ -1,0 +1,73 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "全部",
+            "url": "http://phpmalik.com/wallzy/getTrendings.php"
+        },
+        {
+            "cid": 2,
+            "title": "极简",
+            "url": "http://phpmalik.com/wallzy/getCategory.php?name=Minimal"
+        },
+        {
+            "cid": 3,
+            "title": "Amoled屏",
+            "url": "http://phpmalik.com/wallzy/getCategory.php?name=Amoled"
+        },
+        {
+            "cid": 4,
+            "title": "超级英雄",
+            "url": "http://phpmalik.com/wallzy/getCategory.php?name=Superheroes"
+        },
+        {
+            "cid": 5,
+            "title": "谷歌",
+            "url": "http://phpmalik.com/wallzy/getCategory.php?name=Google"
+        },
+        {
+            "cid": 6,
+            "title": "排版",
+            "url": "http://phpmalik.com/wallzy/getCategory.php?name=Typography"
+        },
+        {
+            "cid": 7,
+            "title": "图案",
+            "url": "http://phpmalik.com/wallzy/getCategory.php?name=Pattern"
+        }
+    ],
+    "flag": "waterfallAsList|onePicGallery|noRating|noTags",
+    "indexRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "path": "$.thumbUrl"
+            },
+            "url": {
+                "path": "$.url"
+            }
+        },
+        "cover": {
+            "path": "$.thumbUrl"
+        },
+        "idCode": {
+            "path": "$.id"
+        },
+        "item": {
+            "path": "$.items"
+        },
+        "title": {
+            "path": "$.title"
+        },
+        "category": {
+            "path": "$",
+            "regex": "\"width\":(\\d+).*?\"height\":(\\d+)",
+            "replacement": "$2x$1"
+        },
+        "uploader":{
+            "path":"$.uploader"
+        }
+    },
+    "indexUrl": "http://phpmalik.com/wallzy/getTrendings.php",
+    "sid": 3,
+    "title": "Wallzy"
+}
