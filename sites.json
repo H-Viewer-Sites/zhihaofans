@@ -353,10 +353,21 @@
                 "title": "ThisAV",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/ThisAV.png",
-                "description": "世界第一中文成人娛樂網站",
+                "description": "世界第一中文成人娱乐网站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/ThisAV.txt",
                 "versionCode": 1,
                 "lastUpdate": "2017-03-20 23:00:00",
+                "r18": true
+            },
+            {
+                "sid": 603,
+                "title": "GayHub",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/GayHub.png",
+                "description": "真·全球最大的基佬交流网站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/GayHub.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-22 14:30:00",
                 "r18": true
             }
         ]
