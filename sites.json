@@ -14,7 +14,7 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/A区.txt",
                 "versionCode": 4,
                 "lastUpdate": "2016-10-25 04:43:42",
-                "r18": false
+                "r18": true
             },
             {
                 "sid": 102,
