@@ -339,6 +339,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-23 00:00:00",
                 "r18": false
+            },
+            {
+                "sid": 511,
+                "title": "walli",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/walli.png",
+                "description": "安卓APP---《walli》的图片",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/walli.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-23 11:00:00",
+                "r18": false
             }
         ]
     },
