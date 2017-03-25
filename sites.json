@@ -203,6 +203,28 @@
                 "versionCode": 2,
                 "lastUpdate": "2017-03-16 17:00:00",
                 "r18": false
+            },
+            {
+                "sid": 406,
+                "title": "天极图片",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天极图片.png",
+                "description": "天极图片-全球最大最全的中文图片库",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/天极图片.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-25 20:00:00",
+                "r18": false
+            },
+            {
+                "sid": 407,
+                "title": "写真图吧",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/写真图吧.png",
+                "description": "写真图吧-最全美女图片",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/写真图吧.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-26 00:00:00",
+                "r18": false
             }
         ]
     },

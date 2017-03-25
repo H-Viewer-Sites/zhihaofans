@@ -1,0 +1,81 @@
+{
+    "categories": [
+        {
+            "url": "http://pic.yesky.com/c/6_243_{page:1}.shtml",
+            "title": "明星写真",
+            "cid": 1
+        },
+        {
+            "url": "http://pic.yesky.com/c/6_20491_{page:1}.shtml",
+            "title": "美女图片",
+            "cid": 2
+        },
+        {
+            "url": "http://pic.yesky.com/c/6_60201_{page:1}.shtml",
+            "title": "摄影美图",
+            "cid": 3
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "div.l_effect_img_mid > a > img"
+            }
+        },
+        "datetime": {
+            "fun": "text",
+            "regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})",
+            "selector": ".a4"
+        },
+        "description": {
+            "fun": "html",
+            "selector": ".tjms"
+        },
+        "tags": {
+            "fun": "text",
+            "selector": "div.keymark > a"
+        }
+    },
+    "galleryUrl": "http://pic.yesky.com/{idCode:}{pageStr:_{page:1}}.shtml",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "dt > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "http://pic.yesky.com/(.+).shtml",
+            "selector": "dt > a"
+        },
+        "item": {
+            "selector": "div.content > div > dl"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "alt",
+            "selector": "dt > a > img"
+        },
+        "category": {
+            "fun": "text",
+            "regex": "([\\d]+)",
+            "replacement": "$1 张",
+            "selector": "dd > span"
+        }
+    },
+    "indexUrl": "http://pic.yesky.com/c/6_243_{page:1}.shtml",
+    "sid": 101,
+    "title": "天极图片"
+}
