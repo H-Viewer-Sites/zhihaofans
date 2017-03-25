@@ -30,7 +30,7 @@
             "selector": "div.showkey > dl > dd > a"
         }
     },
-    "galleryUrl": "http://www.pangci.cc/works/{idCode:}/",
+    "galleryUrl": "http://www.pangci.cc/{idCode:}",
     "indexRule": {
         "cover": {
             "fun": "attr",
@@ -40,7 +40,6 @@
         "idCode": {
             "fun": "attr",
             "param": "href",
-            "regex": "http://www.pangci.cc/works/(\\d*)/",
             "selector": "div.line > div.p > a"
         },
         "item": {
