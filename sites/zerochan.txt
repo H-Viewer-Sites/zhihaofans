@@ -77,7 +77,6 @@
                 "selector": "div#posts > ul > li"
             }
         }
-
     },
     "galleryUrl": "http://www.zerochan.net/{idCode:}",
     "indexRule": {
@@ -107,7 +106,7 @@
         }
     },
     "indexUrl": "http://www.zerochan.net/?p={page:1}",
-    "searchUrl": "http://www.zerochan.net/search?q={keyword:}&p={page:1}",
-    "sid": 101,
+    "searchUrl": "http://www.zerochan.net/{keyword:}?p={page:1}",
+    "sid": 106,
     "title": "zerochan"
 }
