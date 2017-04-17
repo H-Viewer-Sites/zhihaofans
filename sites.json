@@ -383,6 +383,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-23 11:00:00",
                 "r18": false
+            },
+            {
+                "sid": 512,
+                "title": "向日葵8号卫星图",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/向日葵8号.png",
+                "description": "向日葵8号卫星图,每10分钟一张图,可能有延迟,出现'No Image'请无视,此站点测试用,可能会删掉。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/向日葵8号.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-04-18 03:00:00",
+                "r18": true
             }
         ]
     },

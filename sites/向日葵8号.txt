@@ -1,0 +1,25 @@
+{
+    "flag": "noTitle|noTag|noRating|waterfallAsList",
+    "indexRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "path": "$.url"
+            },
+            "url": {
+                "path": "$.url"
+            }
+        },
+        "cover": {
+            "path": "$.url"
+        },
+        "item": {
+            "path": "$"
+        },
+        "idCode": {
+            "path": "$.url"
+        }
+    },
+    "indexUrl": "http://jp.zhihaofans.com/api/earth?count=20&page={page:1}",
+    "sid": 101,
+    "title": "向日葵8号卫星图"
+}
