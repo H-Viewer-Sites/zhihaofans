@@ -74,7 +74,7 @@
         },
         "pictureRule": {
             "item": {
-                "selector": "div.post img[src$='.jpg']"
+                "selector": "div.post > p > a > img"
             },
             "thumbnail": {
                 "fun": "attr",
