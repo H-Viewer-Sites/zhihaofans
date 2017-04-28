@@ -21,5 +21,6 @@
     },
     "indexUrl": "http://jp.zhihaofans.com/api/earth?count=20&page={page:1}",
     "sid": 101,
+    "header":"Referer:http://himawari8.nict.go.jp/zh/himawari8-image.htm",
     "title": "向日葵8号卫星图"
 }

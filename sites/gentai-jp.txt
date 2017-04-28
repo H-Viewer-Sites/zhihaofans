@@ -1,0 +1,109 @@
+{
+    "categories": [{
+            "url": "https://gentai.org/?p={page:1}",
+            "title": "首页列表",
+            "cid": 1
+        },
+        {
+            "url": "https://gentai.org/recent?p={page:1}",
+            "title": "更新历史",
+            "cid": 2
+        },
+        {
+            "url": "https://gentai.org/rank?p={page:1}",
+            "title": "全部热门",
+            "cid": 3
+        },
+        {
+            "url": "https://gentai.org/rank/daily?p={page:1}",
+            "title": "今日热门",
+            "cid": 4
+        },
+        {
+            "url": "https://gentai.org/rank/favorites?p={page:1}",
+            "title": "热门收藏",
+            "cid": 5
+        },
+        {
+            "url": "https://gentai.org/user/favorites?p={page:1}",
+            "title": "我的收藏",
+            "cid": 6
+        },
+        {
+            "url": "https://gentai.org/user/history?p={page:1}",
+            "title": "浏览历史",
+            "cid": 7
+        }
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "fun": "attr",
+                "param": "data-src",
+                "regex": "(.*)",
+                "replacement": "https://jp.gentai.org/$1",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "data-src",
+                "regex": "(.*)",
+                "replacement": "https://jp.gentai.org/$1",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "#gallery-container > img"
+            }
+        }
+    },
+    "galleryUrl": "https://gentai.org/gallery/{idCode:}?p={page:1}&t=w",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "thumb-src",
+            "regex": "(.*)",
+            "replacement": "https://jp.gentai.org/$1",
+            "selector": "td.gallery-cover > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/gallery/(\\d+)",
+            "selector": "td.gallery-info > div.gallery-title > a"
+        },
+        "item": {
+            "selector": "tr.gallery-item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "td.gallery-info > div.gallery-title > a"
+        },
+        "datetime": {
+            "fun": "text",
+            "regex": "(\\d+/\\d+/\\d+) (\\d+:\\d+:\\d+)",
+            "replacement": "$1 $2",
+            "selector": "td.gallery-info > div.gallery-ts > ts"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "td.gallery-info > div.gallery-tags > span.tag > a > ruby"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "rb"
+            },
+            "url": {
+                "fun": "text",
+                "regex": "(.*)",
+                "replacement": "https://gentai.org/search/$1?p={page:1}",
+                "selector": "rt"
+            }
+        }
+    },
+    "indexUrl": "https://gentai.org/?p={page:1}",
+    "loginUrl": "https://gentai.org/user",
+    "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
+    "sid": 101,
+    "title": "gentai-jp"
+}

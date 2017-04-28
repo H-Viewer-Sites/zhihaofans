@@ -1,11 +1,9 @@
-[
-    {
+[{
         "cid": 1,
         "title": "ACG图站",
         "english": "ACG picture sites",
         "r18": false,
-        "sites": [
-            {
+        "sites": [{
                 "sid": 101,
                 "title": "A区",
                 "author": "zhihaofans",
@@ -111,8 +109,7 @@
         "title": "Booru图站",
         "english": "Booru sites",
         "r18": false,
-        "sites": [
-            {
+        "sites": [{
                 "sid": 201,
                 "title": "Danbooru Pool",
                 "author": "zhihaofans",
@@ -141,15 +138,36 @@
         "title": "绅士漫画站",
         "english": "Hentai manga sites",
         "r18": true,
-        "sites": []
+        "sites": [{
+                "sid": 301,
+                "title": "gentai",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Danbooru.png",
+                "description": "本站的本子都是从nhentai爬来的，而nhentai则是从exhentai爬来的,登陆内容更多。此站点规则采用的是全球最大CDN Cloudflare的CDN,因为中国不在地球所以走的都是CDN的美国线路",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-04-29 00:00:00",
+                "r18": true
+            },
+            {
+                "sid": 302,
+                "title": "gentai-jp",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Danbooru.png",
+                "description": "此站点规则采用的是日本线路,但中国的线路和运营商如此复杂，各地的表现差别很大，有时甚至还不如Cloudflare",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai-jp.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-04-29 00:00:00",
+                "r18": true
+            }
+        ]
     },
     {
         "cid": 4,
         "title": "写真图站",
         "english": "Nude Photography Sites",
         "r18": false,
-        "sites": [
-            {
+        "sites": [{
                 "sid": 401,
                 "title": "豆瓣美女",
                 "author": "zhihaofans",
@@ -251,8 +269,7 @@
         "title": "素材图站",
         "english": "Resource Sites",
         "r18": false,
-        "sites": [
-            {
+        "sites": [{
                 "sid": 501,
                 "title": "deviantART",
                 "author": "zhihaofans",
@@ -391,8 +408,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/向日葵8号.png",
                 "description": "向日葵8号卫星图,每10分钟一张图,可能有延迟,出现'No Image'请无视,此站点测试用,可能会删掉。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/向日葵8号.txt",
-                "versionCode": 1,
-                "lastUpdate": "2017-04-18 03:00:00",
+                "versionCode": 2,
+                "lastUpdate": "2017-04-29 00:00:00",
                 "r18": true
             }
         ]
@@ -402,16 +419,15 @@
         "title": "视频站",
         "english": "Video Sites",
         "r18": false,
-        "sites": [
-            {
+        "sites": [{
                 "sid": 601,
                 "title": "Redtube",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Redtube.png",
                 "description": "全世界最大的成人视频网站PornHub的旗下/兄弟视频网站(无需梯子)",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Redtube.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-03-26 00:24:00",
+                "versionCode": 3,
+                "lastUpdate": "2017-04-29 00:00:00",
                 "r18": true
             },
             {

@@ -1,74 +1,69 @@
 {
     "categories": [
         {
-            "url": "https://www.redtube.com/?page={page:1}",
-            "title": "最新",
-            "cid": 1
-        },
-        {
             "url": "https://www.redtube.com/hot?page={page:1}",
             "title": "热门",
-            "cid": 2
+            "cid": 1
         },
         {
             "url": "https://www.redtube.com/top?page={page:1}",
             "title": "好评(本周)",
-            "cid": 3
+            "cid": 2
         },
         {
             "url": "https://www.redtube.com/top?period=alltime&page={page:1}",
             "title": "好评(一直以来)",
-            "cid": 4
+            "cid": 3
         },
         {
             "url": "https://www.redtube.com/recommended?page={page:1}",
             "title": "推荐(最相关的)",
-            "cid": 5
+            "cid": 4
         },
         {
             "url": "https://www.redtube.com/recommended/top?page={page:1}",
             "title": "推荐(好评)",
-            "cid": 6
+            "cid": 5
         },
         {
             "url": "https://www.redtube.com/recommended/mostviewed?page={page:1}",
             "title": "推荐(最多观看)",
-            "cid": 7
+            "cid": 6
         },
         {
             "url": "https://www.redtube.com/recommended/new?page={page:1}",
             "title": "推荐(最新的)",
-            "cid": 8
+            "cid": 7
         },
         {
             "url": "https://www.redtube.com/recommended/longest?page={page:1}",
             "title": "推荐(最长的)",
-            "cid": 9
+            "cid": 8
         },
         {
             "url": "https://www.redtube.com/mostviewed?page={page:1}",
             "title": "最多观看(本周)",
-            "cid": 10
+            "cid": 9
         },
         {
             "url": "https://www.redtube.com/mostviewed?period=alltime&page={page:1}",
             "title": "最多观看(一直以来)",
-            "cid": 11
+            "cid": 10
         },
         {
             "url": "http://www.redtube.com/mostfavored?page={page:1}",
             "title": "最受青睐(本周)",
-            "cid": 12
+            "cid": 11
         },
         {
             "url": "http://www.redtube.com/mostfavored?period=alltime&page={page:1}",
             "title": "最受青睐(一直以来)",
-            "cid": 13
+            "cid": 12
         },
         {
             "url": "http://www.redtube.com/longest?page={page:1}",
             "title": "最长的(本周)",
-            "cid": 14
+            "cid": 13
         },
         {
             "url": "http://www.redtube.com/longest?period=alltime&page={page:1}",
@@ -77,7 +72,7 @@
         }
     ],
     "flag": "preloadGallery|noRating",
-    "galleryRule": {
+    "galleryRule": {      
         "videoRule": {
             "content": {
                 "fun": "attr",
@@ -132,22 +127,6 @@
         "tags": {
             "fun": "text",
             "selector": "tr.hidden > td.links > a"
-        },
-        "tagRule": {
-            "item": {
-                "selector": "tr.hidden > td.links > a"
-            },
-            "title": {
-                "fun": "text",
-                "selector": "this"
-            },
-            "url": {
-                "regex": "(.*)",
-                "replacement": "$1?page={page:1}",
-                "fun": "attr",
-                "param": "href",
-                "selector": "this"
-            }
         }
     },
     "galleryUrl": "https://www.redtube.com/{idCode:}",
@@ -175,7 +154,7 @@
             "selector": "a.video-thumb > span.video-duration"
         }
     },
-    "indexUrl": "https://www.redtube.com/?page={page:1}",
+    "indexUrl": "https://www.redtube.com/hot?page={page:1}",
     "searchUrl": "https://www.redtube.com/?search={keyword:}&page={page:1}",
     "loginUrl": "https://www.redtube.com/register",
     "sid": 101,
