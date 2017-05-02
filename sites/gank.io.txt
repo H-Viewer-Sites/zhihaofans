@@ -1,0 +1,36 @@
+{
+    "flag": "noTag|noTitle|noRating|waterfallAsList",
+    "indexRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "path": "$.url"
+            },
+            "url": {
+                "path": "$.url"
+            }
+        },
+        "cover": {
+            "path": "$.url"
+        },
+        "author": {
+            "path": "$.who"
+        },
+        "item": {
+            "path": "$.results"
+        },
+        "category": {
+            "path": "$.desc"
+        },
+        "idCode": {
+            "path": "$._id"
+        },
+        "datetime": {
+            "regex": "(//d{4}-//d{1,2}-//d{1,2})T(//d{1,2}://d{1,2}://d{1,2})",
+            "replacement": "$1 $2",
+            "path": "$.publishedAt"
+        }
+    },
+    "indexUrl": "http://gank.io/api/data/%E7%A6%8F%E5%88%A9/20/{page:1}",
+    "sid": 101,
+    "title": "gank.io"
+}
