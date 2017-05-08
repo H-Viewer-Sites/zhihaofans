@@ -420,6 +420,16 @@
                 "versionCode": 2,
                 "lastUpdate": "2017-04-29 00:00:00",
                 "r18": true
+            },
+            {
+                "sid": 513,
+                "title": "堆糖",
+                "author": "zhihaofans",
+                "description": "分享收集有关时尚生活的各种图片资讯，手工DIY、插画手绘、美食菜谱、潮流品牌、搭配街拍、美妆发型等等。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/堆糖.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-05-08 15:00:00",
+                "r18": false
             }
         ]
     },
