@@ -1,5 +1,6 @@
 {
-    "categories": [{
+    "categories": [
+        {
             "url": "https://gentai.org/?p={page:1}",
             "title": "首页列表",
             "cid": 1
@@ -41,19 +42,19 @@
             "thumbnail": {
                 "fun": "attr",
                 "param": "data-src",
-                "regex": "(.*)",
+                "regex": "https://nl.gentai.org/(.*)",
                 "replacement": "https://jp.gentai.org/$1",
                 "selector": "this"
             },
             "url": {
                 "fun": "attr",
                 "param": "data-src",
-                "regex": "(.*)",
+                "regex": "https://nl.gentai.org/(.*)",
                 "replacement": "https://jp.gentai.org/$1",
                 "selector": "this"
             },
             "item": {
-                "selector": "#gallery-container > img"
+                "selector": "img.gallery-image"
             }
         }
     },
@@ -61,8 +62,8 @@
     "indexRule": {
         "cover": {
             "fun": "attr",
-            "param": "thumb-src",
-            "regex": "(.*)",
+            "param": "src",
+            "regex": "https://nl.gentai.org/(.*)",
             "replacement": "https://jp.gentai.org/$1",
             "selector": "td.gallery-cover > a > img"
         },
@@ -104,6 +105,6 @@
     "indexUrl": "https://gentai.org/?p={page:1}",
     "loginUrl": "https://gentai.org/user",
     "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
-    "sid": 101,
+    "sid": 302,
     "title": "gentai-jp"
 }
