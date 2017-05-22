@@ -142,18 +142,8 @@
                 "sid": 301,
                 "title": "gentai",
                 "author": "zhihaofans",
-                "description": "本站的本子都是从nhentai爬来的，而nhentai则是从exhentai爬来的,登陆内容更多。此站点规则采用的是全球最大CDN Cloudflare的CDN,因为中国不在地球所以走的都是CDN的美国线路",
+                "description": "本站的本子都是从nhentai爬来的，而nhentai则是从exhentai爬来的,登陆内容更多。选择/自定义线路请登录，时间线请设置为详细列表。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-05-21 00:00:00",
-                "r18": true
-            },
-            {
-                "sid": 302,
-                "title": "gentai-jp",
-                "author": "zhihaofans",
-                "description": "(如果你自定义了代理服务器请不要使用这个)此站点规则采用的是日本线路,但中国的线路和运营商如此复杂，各地的表现差别很大，有时甚至还不如Cloudflare",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai-jp.txt",
                 "versionCode": 2,
                 "lastUpdate": "2017-05-21 00:00:00",
                 "r18": true
