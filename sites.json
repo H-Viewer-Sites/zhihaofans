@@ -144,8 +144,8 @@
                 "author": "zhihaofans",
                 "description": "本站的本子都是从nhentai爬来的，而nhentai则是从exhentai爬来的,登陆内容更多。选择/自定义线路请登录，时间线请设置为详细列表。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-05-21 00:00:00",
+                "versionCode": 3,
+                "lastUpdate": "2017-05-30 01:43:00",
                 "r18": true
             }
         ]
