@@ -434,10 +434,10 @@
                 "title": "Redtube",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Redtube.png",
-                "description": "全世界最大的成人视频网站PornHub的旗下/兄弟视频网站(无需梯子)",
+                "description": "全世界最大的成人视频网站PornHub的旗下/兄弟视频网站Redtube(无需梯子)",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Redtube.txt",
-                "versionCode": 3,
-                "lastUpdate": "2017-04-29 00:00:00",
+                "versionCode": 4,
+                "lastUpdate": "2017-06-24 03:30:00",
                 "r18": true
             },
             {
@@ -447,8 +447,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/ThisAV.png",
                 "description": "世界第一中文成人娱乐网站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/ThisAV.txt",
-                "versionCode": 1,
-                "lastUpdate": "2017-03-20 23:00:00",
+                "versionCode": 2,
+                "lastUpdate": "2017-06-24 03:30:00",
                 "r18": true
             },
             {
@@ -458,8 +458,19 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/GayHub.png",
                 "description": "真·全球最大的基佬交流网站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/GayHub.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-06-24 03:30:00",
+                "r18": true
+            },
+            {
+                "sid": 604,
+                "title": "YouPorn",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/YouPorn.png",
+                "description": "全世界最大的成人视频网站PornHub的旗下/兄弟视频网站YouPorn(无需梯子)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/YouPorn.txt",
                 "versionCode": 1,
-                "lastUpdate": "2017-03-22 14:30:00",
+                "lastUpdate": "2017-06-24 03:30:00",
                 "r18": true
             }
         ]

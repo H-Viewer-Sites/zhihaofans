@@ -85,6 +85,6 @@
     "indexUrl": "http://www.thisav.com/videos?o=mr&language=chineses&page={page:1}",
     "loginUrl": "http://www.thisav.com/login",
     "searchUrl": "http://www.thisav.com/search?o=mr&for=videos&r=&min=&max=&query={keyword:}&page={page:1}",
-    "sid": 1,
+    "sid": 602,
     "title": "ThisAV"
 }

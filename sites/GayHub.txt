@@ -94,6 +94,6 @@
     "indexUrl": "http://www.gayhub.com/videos/page{page:1}.html",
     "searchUrl": "http://www.gayhub.com/search/videos/{keyword:}/page{page:1}.html",
     "loginUrl": "http://www.gayhub.com/login",
-    "sid": 101,
+    "sid": 603,
     "title": "GayHub"
 }

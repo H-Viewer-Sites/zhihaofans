@@ -157,6 +157,6 @@
     "indexUrl": "https://www.redtube.com/hot?page={page:1}",
     "searchUrl": "https://www.redtube.com/?search={keyword:}&page={page:1}",
     "loginUrl": "https://www.redtube.com/register",
-    "sid": 101,
+    "sid": 601,
     "title": "Redtube"
 }
