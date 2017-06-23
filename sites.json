@@ -467,10 +467,21 @@
                 "title": "YouPorn",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/YouPorn.png",
-                "description": "PornHub的旗下/兄弟视频网站YouPorn(无需梯子)",
+                "description": "PornHub的旗下/兄弟视频网站YouPorn(可能需要梯子)",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/YouPorn.txt",
                 "versionCode": 1,
                 "lastUpdate": "2017-06-24 03:30:00",
+                "r18": true
+            },
+            {
+                "sid": 605,
+                "title": "Tube8",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Tube8.png",
+                "description": "PornHub的旗下/兄弟视频网站Tube8(可能需要梯子)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Tube8.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-24 07:00:00",
                 "r18": true
             }
         ]
