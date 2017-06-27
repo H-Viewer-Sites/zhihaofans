@@ -71,5 +71,5 @@
     },
     "indexUrl": "http://www.005.tv/Cosplay/Cosplay/list_631_{page:1}.html",
     "sid": 103,
-    "title": "羁绊网"
+    "title": "www.005.tv"
 }

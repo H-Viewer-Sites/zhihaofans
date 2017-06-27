@@ -27,11 +27,11 @@
             },
             {
                 "sid": 103,
-                "title": "羁绊网",
+                "title": "www.005.tv",
                 "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/羁绊网.png",
-                "description": "动漫游戏门户网站，致力于为ACG爱好者搭建一个资源，资讯，以及交流平台。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/羁绊网.txt",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/www.005.tv.png",
+                "description": "(原羁绊网)动漫游戏门户网站，致力于为ACG爱好者搭建一个资源，资讯，以及交流平台。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/www.005.tv.txt",
                 "versionCode": 1,
                 "lastUpdate": "2016-11-01 01:09:23",
                 "r18": false
