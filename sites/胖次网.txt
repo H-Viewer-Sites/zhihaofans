@@ -25,6 +25,20 @@
             "fun": "html",
             "selector": "div.wdesc"
         },
+        "tagRule": {
+            "item": {
+                "selector": "div.showkey > dl > dd > a"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "this"
+            }
+        },
         "tags": {
             "fun": "html",
             "selector": "div.showkey > dl > dd > a"
