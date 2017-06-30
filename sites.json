@@ -451,7 +451,7 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/维基百科每日图片.png",
                 "description": "最近7天的图片，中文与英文版，网络问题请自行解决。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/维基百科每日图片.txt",
-                "versionCode": 1,
+                "versionCode": 2,
                 "lastUpdate": "2017-06-30 11:00",
                 "r18": false
             }

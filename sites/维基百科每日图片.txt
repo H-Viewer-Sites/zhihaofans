@@ -11,7 +11,7 @@
             "cid": 2
         }
     ],
-    "flag": "preloadGallery|noRating",
+    "flag": "preloadGallery|noRating|waterfallAsList",
     "galleryRule": {
         "cover": {
             "fun": "attr",
