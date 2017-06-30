@@ -1,0 +1,102 @@
+{
+    "categories": [
+        {
+            "url": "http://moe.005.tv/moeimg/list_2_{page:1}.html",
+            "title": "萌化图片",
+            "cid": 1
+        },
+        {
+            "url": "http://moe.005.tv/moeimg/bz/list_4_{page:1}.html",
+            "title": "电脑壁纸",
+            "cid": 2
+        },
+        {
+            "url": "http://moe.005.tv/moeimg/sjbz/list_601_{page:1}.html",
+            "title": "手机壁纸",
+            "cid": 3
+        },
+        {
+            "url": "http://moe.005.tv/moeimg/bq/list_5_{page:1}.html",
+            "title": "表情包",
+            "cid": 4
+        },
+        {
+            "url": "http://moe.005.tv/cosplay/cosxztj/list_598_{page:1}.html",
+            "title": "cos写真图集",
+            "cid": 5
+        }
+    ],
+    "flag": "preloadGallery|noRating",
+    "galleryRule": {
+        "pictureRule": {
+            "item": {
+                "selector": "div.content_nr img[alt!='']"
+            },
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            }
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.content_nr"
+        },
+        "uploader": {
+            "fun": "html",
+            "regex": "作者：(.+)<i>\\|</i>编辑：",
+            "selector": "span.data"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "span.tags > a"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "span.zt_pic > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "selector": "span.zt_pic > a"
+        },
+        "item": {
+            "selector": "div.zhuti_w_list > ul > li"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "span.zt_dep > dl > dt"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "span.zt_dep > p"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "span.zt_dep > strong > a"
+        },
+        "category": {
+            "fun": "text",
+            "regex": "([\\d]+)",
+            "replacement": "$1 赞",
+            "selector": "span.zt_dep > dl > dd"
+        }
+    },
+    "indexUrl": "http://moe.005.tv/moeimg/list_2_{page:1}.html",
+    "sid": 104,
+    "title": "moe.005.tv"
+}

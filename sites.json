@@ -33,11 +33,22 @@
                 "description": "(原羁绊网)动漫游戏门户网站，致力于为ACG爱好者搭建一个资源，资讯，以及交流平台。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/www.005.tv.txt",
                 "versionCode": 1,
-                "lastUpdate": "2016-11-01 01:09:23",
+                "lastUpdate": "2017-06-28 00:00:00",
                 "r18": false
             },
             {
                 "sid": 104,
+                "title": "moe.005.tv",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/moe.005.tv.png",
+                "description": "moe.005.tv",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/moe.005.tv.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-28 13:00:00",
+                "r18": false
+            },
+            {
+                "sid": 105,
                 "title": "胖次网",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/胖次网.png",
@@ -48,7 +59,7 @@
                 "r18": false
             },
             {
-                "sid": 105,
+                "sid": 106,
                 "title": "卖萌网",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/卖萌网.png",
@@ -59,7 +70,7 @@
                 "r18": false
             },
             {
-                "sid": 106,
+                "sid": 107,
                 "title": "zerochan",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/zerochan.png",
@@ -70,7 +81,7 @@
                 "r18": false
             },
             {
-                "sid": 107,
+                "sid": 108,
                 "title": "兔窝儿",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/兔窝儿.png",
@@ -81,7 +92,7 @@
                 "r18": false
             },
             {
-                "sid": 108,
+                "sid": 109,
                 "title": "天啦噜",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天啦噜.png",
@@ -92,7 +103,7 @@
                 "r18": false
             },
             {
-                "sid": 109,
+                "sid": 110,
                 "title": "Minitokyo",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Minitokyo.png",
