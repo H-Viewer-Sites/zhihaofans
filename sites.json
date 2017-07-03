@@ -112,6 +112,17 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-03-19 01:00",
                 "r18": false
+            },
+            {
+                "sid": 111,
+                "title": "anime-pictures.net",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/anime-pictures.net.png",
+                "description": "一个免费的动漫图片和壁纸搜索网站，超过50万张图片。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/anime-pictures.net.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-07-03 19:00",
+                "r18": false
             }
         ]
     },
