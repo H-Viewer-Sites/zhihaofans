@@ -81,5 +81,5 @@
         "isGrid": false,
         "searchUrl": "http://www.177pic.info/page/{page:1}?s={keyword:}&variant=zh-hans",
         "sid": 302,
-        "title": "177漫画修复版",
+        "title": "177漫画修复版"
     }
