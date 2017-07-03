@@ -1,9 +1,11 @@
-[{
+[
+    {
         "cid": 1,
         "title": "ACG图站",
         "english": "ACG picture sites",
         "r18": false,
-        "sites": [{
+        "sites": [
+            {
                 "sid": 101,
                 "title": "A区",
                 "author": "zhihaofans",
@@ -131,7 +133,8 @@
         "title": "Booru图站",
         "english": "Booru sites",
         "r18": false,
-        "sites": [{
+        "sites": [
+            {
                 "sid": 201,
                 "title": "Danbooru Pool",
                 "author": "zhihaofans",
@@ -160,7 +163,8 @@
         "title": "绅士漫画站",
         "english": "Hentai manga sites",
         "r18": true,
-        "sites": [{
+        "sites": [
+            {
                 "sid": 301,
                 "title": "gentai",
                 "author": "zhihaofans",
@@ -168,6 +172,16 @@
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
                 "versionCode": 4,
                 "lastUpdate": "2017-06-23 00:00:00",
+                "r18": true
+            },
+            {
+                "sid": 302,
+                "title": "177漫画修复版",
+                "author": "zhihaofans",
+                "description": "177漫画的修复版,临时用。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/177漫画修复版.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-07-03 21:50:00",
                 "r18": true
             }
         ]
@@ -177,7 +191,8 @@
         "title": "写真图站",
         "english": "Nude Photography Sites",
         "r18": false,
-        "sites": [{
+        "sites": [
+            {
                 "sid": 401,
                 "title": "豆瓣美女",
                 "author": "zhihaofans",
@@ -290,7 +305,8 @@
         "title": "素材图站",
         "english": "Resource Sites",
         "r18": false,
-        "sites": [{
+        "sites": [
+            {
                 "sid": 501,
                 "title": "deviantART",
                 "author": "zhihaofans",
@@ -473,7 +489,8 @@
         "title": "视频站",
         "english": "Video Sites",
         "r18": false,
-        "sites": [{
+        "sites": [
+            {
                 "sid": 601,
                 "title": "Redtube",
                 "author": "zhihaofans",
