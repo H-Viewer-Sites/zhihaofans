@@ -105,7 +105,7 @@
     },
     "indexUrl": "https://anime-pictures.net/pictures/view_posts/{page:0}?lang=en",
     "loginUrl": "https://anime-pictures.net/login/login?lang=en",
-    "searchUrl": "https://gentai.org/search/{keyword:}?p={page:1}",
+    "searchUrl": "https://anime-pictures.net/pictures/view_posts/{page:0}?search_tag={keyword:}&lang=en",
     "sid": 301,
     "title": "anime-pictures.net"
 }

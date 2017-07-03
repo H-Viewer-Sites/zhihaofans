@@ -120,8 +120,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/anime-pictures.net.png",
                 "description": "一个免费的动漫图片和壁纸搜索网站，超过50万张图片。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/anime-pictures.net.txt",
-                "versionCode": 1,
-                "lastUpdate": "2017-07-03 19:00",
+                "versionCode": 2,
+                "lastUpdate": "2017-07-03 19:20",
                 "r18": false
             }
         ]
