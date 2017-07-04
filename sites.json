@@ -470,6 +470,17 @@
                 "versionCode": 2,
                 "lastUpdate": "2017-06-30 11:11",
                 "r18": false
+            },
+            {
+                "sid": 515,
+                "title": "niconico插画",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/niconico插画.png",
+                "description": "未完成版，差TAG、原图(现在想要原图请用浏览器)、评论",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/niconico插画.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-07-04 11:55",
+                "r18": false
             }
         ]
     },
