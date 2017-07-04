@@ -440,17 +440,6 @@
             },
             {
                 "sid": 512,
-                "title": "向日葵8号卫星图",
-                "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/向日葵8号.png",
-                "description": "向日葵8号卫星图,每10分钟一张图,可能有延迟,出现'No Image'请无视,此站点测试用,可能会删掉。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/向日葵8号.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-04-29 00:00:00",
-                "r18": true
-            },
-            {
-                "sid": 513,
                 "title": "堆糖",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/堆糖.png",
@@ -461,7 +450,7 @@
                 "r18": false
             },
             {
-                "sid": 514,
+                "sid": 513,
                 "title": "wallhaven",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/wallhaven.png",
@@ -472,7 +461,7 @@
                 "r18": false
             },
             {
-                "sid": 515,
+                "sid": 514,
                 "title": "维基百科每日图片",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/维基百科每日图片.png",
