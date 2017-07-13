@@ -1,0 +1,62 @@
+{
+    "categories": [
+        {
+            "url": "https://h-viewer-helper.herokuapp.com/jiandan?jd_type=ooxx&page={page:1}",
+            "title": "妹子图",
+            "cid": 1
+        },
+        {
+            "url": "https://h-viewer-helper.herokuapp.com/jiandan?jd_type=pic&page={page:1}",
+            "title": "无聊图",
+            "cid": 2
+        },
+        {
+            "url": "https://h-viewer-helper.herokuapp.com/jiandan?jd_type=drawings&page={page:1}",
+            "title": "画廊",
+            "cid": 3
+        }
+    ],
+    "flag": "noRating|noTitle|waterfallAsList",
+    "indexRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.*)",
+                "replacement": "https:$1",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "https:$1",
+                "selector": "a.view_img_link"
+            },
+            "item": {
+                "selector": "div.text > p"
+            }
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "regex": "(.*)",
+            "replacement": "https:$1",
+            "selector": "div.text > p > img"
+        },
+        "item": {
+            "selector": "ol.commentlist > li > div > div.row"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "div.text"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.author"
+        }
+    },
+    "indexUrl": "https://h-viewer-helper.herokuapp.com/jiandan?jd_type=ooxx&page={page:1}",
+    "sid": 516,
+    "title": "煎蛋"
+}
