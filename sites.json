@@ -492,17 +492,6 @@
                 "r18": true
             },
             {
-                "sid": 602,
-                "title": "ThisAV",
-                "author": "zhihaofans",
-                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/ThisAV.png",
-                "description": "世界第一中文成人娱乐网站",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/ThisAV.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-06-24 03:30:00",
-                "r18": true
-            },
-            {
                 "sid": 603,
                 "title": "GayHub",
                 "author": "zhihaofans",

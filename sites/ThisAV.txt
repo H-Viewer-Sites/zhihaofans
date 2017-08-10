@@ -33,14 +33,15 @@
     ],
     "flag": "preloadGallery|noRating|jsNeededGallery",
     "galleryRule": {
+        "js": "$('.vjs-big-play-button').click();",
         "videoRule": {
             "content": {
                 "fun": "attr",
                 "param": "src",
-                "selector": "this"
+                "selector": "source"
             },
             "item": {
-                "selector": "video > source"
+                "selector": "video"
             }
         },
         "uploader": {
