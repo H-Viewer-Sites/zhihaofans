@@ -173,16 +173,6 @@
                 "versionCode": 4,
                 "lastUpdate": "2017-06-23 00:00:00",
                 "r18": true
-            },
-            {
-                "sid": 302,
-                "title": "177漫画修复版",
-                "author": "zhihaofans",
-                "description": "177漫画的修复版,临时用。",
-                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/177漫画修复版.txt",
-                "versionCode": 2,
-                "lastUpdate": "2017-07-03 21:50:00",
-                "r18": true
             }
         ]
     },
