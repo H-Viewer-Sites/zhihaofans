@@ -74,7 +74,7 @@
         },
         "pictureRule": {
             "item": {
-                "selector": "div.post > p > a > img"
+                "selector": "img.aligncenter"
             },
             "thumbnail": {
                 "fun": "attr",
@@ -96,7 +96,7 @@
             "selector": "span.postcat > a"
         }
     },
-    "galleryUrl": "http://www.apic.in/{idCode:}.htm/{page:1}",
+    "galleryUrl": "http://www.apic.in/{idCode:}.htm{pageStr:/{page:1}}",
     "indexRule": {
         "cover": {
             "fun": "attr",
