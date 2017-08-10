@@ -1,0 +1,105 @@
+{
+    "categories": [
+        {
+            "cid": 1,
+            "title": "最新-全部",
+            "url": "https://www.youav.com/videos?o=mr&page={page:1}"
+        }
+    ],
+    "flag": "preloadGallery",
+    "galleryRule": {
+        "videoRule": {
+            "content": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "video.jw-video"
+            }
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.user-container > a > span"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "a.tag"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "$1&page={page:1}",
+                "selector": "this"
+            }
+        },
+        "commentRule": {
+            "avatar": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "div.row > div.pull-left > a > img.img-responsive.comment-avatar"
+            },
+            "author": {
+                "fun": "html",
+                "selector": "div.row > div.comment > div.comment-info > a"
+            },
+            "datetime": {
+                "fun": "html",
+                "selector": "div.row > div.comment > div.comment-info > span"
+            },
+            "content": {
+                "fun": "html",
+                "selector": "div.row > div.comment > div.comment-body"
+            },
+            "item": {
+                "selector": "div#comments > div > div.col-xs-12.m-t-15"
+            }
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "div.well.well-sm > a > div.thumb-overlay > img.img-responsive"
+        },
+        "category": {
+            "fun": "text",
+            "selector": "div.well.well-sm > div.video-views"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.+)",
+            "replacement": "https://www.youav.com/$1",
+            "selector": "div.well.well-sm > a"
+        },
+        "item": {
+            "selector": "div#wrapper > div.container > div.row > div.col-md-9.col-sm-8 > div.row > div.col-sm-6.col-md-4.col-lg-4"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "div.well.well-sm > a > span.video-title"
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "div.well.well-sm > div.video-added"
+        },
+        "rating": {
+            "fun": "text",
+            "regex": "(.+)",
+            "replacement": "$1*5",
+            "selector": "div.well.well-sm > div.video-rating > b"
+        }
+    },
+    "indexUrl": "https://www.youav.com/videos?o=mr&page={page:1}",
+    "loginUrl": "https://www.youav.com/signup",
+    "searchUrl": "http://www.thisav.com/search?o=mr&for=videos&r=&min=&max=&query={keyword:}&page={page:1}",
+    "sid": 1,
+    "title": "ThisAV"
+}

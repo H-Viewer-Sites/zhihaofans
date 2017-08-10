@@ -1,0 +1,80 @@
+{
+    "categories": [
+        {
+            "url": "http://seiga.nicovideo.jp/illust/list?page={page:1}",
+            "title": "最新列表",
+            "cid": 1
+        }
+    ],
+    "flag": "preloadGallery|singlePageBigPicture|noRating|loginRequired",
+    "extraRule": {
+        "pictureRule": {
+            "url": {
+                "fun": "attr",
+                "param": "src",
+                "regex": "(.*)",
+                "replacement": "https://lohas.nicoseiga.jp$1",
+                "selector": "div#illust_view_big > img"
+            }
+        }
+    },
+    "galleryRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "(.*)",
+                "replacement": "http://seiga.nicovideo.jp$1",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "a#illust_link"
+            }
+        },
+        "datetime": {
+            "fun": "text",
+            "selector": "li.date > span.created"
+        },
+        "description": {
+            "fun": "html",
+            "selector": "p.discription"
+        }
+    },
+    "galleryUrl": "{idCode:}",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "span.thum > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "(.*)",
+            "replacement": "http://seiga.nicovideo.jp$1",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "li.list_item > a"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "ul.illust_info > li.title"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "ul.illust_info > li.user"
+        }
+    },
+    "indexUrl": "http://seiga.nicovideo.jp/illust/list?page={page:1}",
+    "loginUrl": "http://seiga.nicovideo.jp/login/redirect?next_url=%2F%3Fheader",
+    "searchUrl": "http://seiga.nicovideo.jp/search/{keyword:}?page={page:1}&target=illust&sort=comment_created",
+    "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
+    "sid": 301,
+    "title": "niconico插画"
+}

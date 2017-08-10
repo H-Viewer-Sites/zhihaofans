@@ -1,0 +1,550 @@
+[
+    {
+        "cid": 1,
+        "title": "ACG图站",
+        "english": "ACG picture sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 101,
+                "title": "A区",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/A区.png",
+                "description": "A区动漫图站，每天定时更新一系列动漫图片,动漫美女图片,高清动漫图片，Hentai图片，动漫足控图片，动漫足控，二次元杂图等，并提供好看的动漫图片打包下载，欢迎你的来访！",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/A区.txt",
+                "versionCode": 5,
+                "lastUpdate": "2017-04-17 11:00:00",
+                "r18": true
+            },
+            {
+                "sid": 102,
+                "title": "AcFun文章区",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/AcFun漫画.png",
+                "description": "AcFun文章区(原'AcFun漫画')",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/AcFun文章区.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-31 20:30:00",
+                "r18": false
+            },
+            {
+                "sid": 103,
+                "title": "www.005.tv",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/www.005.tv.png",
+                "description": "(原羁绊网)动漫游戏门户网站，致力于为ACG爱好者搭建一个资源，资讯，以及交流平台。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/www.005.tv.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-28 00:00:00",
+                "r18": false
+            },
+            {
+                "sid": 104,
+                "title": "moe.005.tv",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/moe.005.tv.png",
+                "description": "moe.005.tv",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/moe.005.tv.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-28 13:00:00",
+                "r18": false
+            },
+            {
+                "sid": 105,
+                "title": "胖次网",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/胖次网.png",
+                "description": "胖次网 - Σ(っ °Д °;)っ 让世界更萌~ pangci.cc",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/胖次网.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-03-25 23:00:00",
+                "r18": false
+            },
+            {
+                "sid": 106,
+                "title": "卖萌网",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/卖萌网.png",
+                "description": "卖萌 - MAG.MOE",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/卖萌网.txt",
+                "versionCode": 4,
+                "lastUpdate": "2016-12-08 01:00:00",
+                "r18": false
+            },
+            {
+                "sid": 107,
+                "title": "zerochan",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/zerochan.png",
+                "description": "zerochan",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/zerochan.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-03-28 17:00:00",
+                "r18": false
+            },
+            {
+                "sid": 108,
+                "title": "兔窝儿",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/兔窝儿.png",
+                "description": "宅腐萌的二次元根据地",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/兔窝儿.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-17 01:00:00",
+                "r18": false
+            },
+            {
+                "sid": 109,
+                "title": "天啦噜",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天啦噜.png",
+                "description": "追番撸图尬舞，一个有态度的二次元网站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/天啦噜.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-15 14:04",
+                "r18": false
+            },
+            {
+                "sid": 110,
+                "title": "Minitokyo",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Minitokyo.png",
+                "description": "minitokyo是个动漫艺术社区。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Minitokyo.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-19 01:00",
+                "r18": false
+            },
+            {
+                "sid": 111,
+                "title": "anime-pictures.net",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/anime-pictures.net.png",
+                "description": "一个免费的动漫图片和壁纸搜索网站，超过50万张图片。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/anime-pictures.net.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-07-03 19:20",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 2,
+        "title": "Booru图站",
+        "english": "Booru sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 201,
+                "title": "Danbooru Pool",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Danbooru.png",
+                "description": "Danbooru的图集",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Danbooru.Pool.txt",
+                "versionCode": 2,
+                "lastUpdate": "2016-12-01 13:00:00",
+                "r18": false
+            },
+            {
+                "sid": 202,
+                "title": "Danbooru Post",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Danbooru.png",
+                "description": "booru站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Danbooru.Post.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-01 12:00:00",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 3,
+        "title": "绅士漫画站",
+        "english": "Hentai manga sites",
+        "r18": true,
+        "sites": [
+            {
+                "sid": 301,
+                "title": "gentai",
+                "author": "zhihaofans",
+                "description": "本站的本子都是从nhentai爬来的，而nhentai则是从exhentai爬来的,登陆内容更多。选择/自定义线路请登录，时间线请设置为详细列表。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
+                "versionCode": 4,
+                "lastUpdate": "2017-06-23 00:00:00",
+                "r18": true
+            },
+            {
+                "sid": 302,
+                "title": "177漫画修复版",
+                "author": "zhihaofans",
+                "description": "177漫画的修复版,临时用。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/177漫画修复版.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-07-03 21:50:00",
+                "r18": true
+            }
+        ]
+    },
+    {
+        "cid": 4,
+        "title": "写真图站",
+        "english": "Nude Photography Sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 401,
+                "title": "豆瓣美女",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/豆瓣美女.png",
+                "description": "豆瓣美女 - 豆瓣妹子 - 豆瓣福利 | 真实的妹子私房照分享社区",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/豆瓣美女.txt",
+                "versionCode": 2,
+                "lastUpdate": "2016-11-11 09:59:00",
+                "r18": false
+            },
+            {
+                "sid": 402,
+                "title": "girlimg",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/girlimg.png",
+                "description": "图片来自tumblr服务器，请自备梯子。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/girlimg.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-01 14:00:00",
+                "r18": true
+            },
+            {
+                "sid": 403,
+                "title": "天狗美阅",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天狗美阅.png",
+                "description": "天狗美阅 - 美女 性感 诱惑 日韩_打造时尚开放美图(服务器网速很慢！)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/天狗美阅.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-08 23:00:00",
+                "r18": false
+            },
+            {
+                "sid": 404,
+                "title": "动漫之家",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/动漫之家.png",
+                "description": "动漫之家的美图欣赏分类",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/动漫之家.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-02-23 00:30:00",
+                "r18": false
+            },
+            {
+                "sid": 405,
+                "title": "WorldCosplay",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/WorldCosplay.png",
+                "description": "WorldCosplay是一个对全世界Cosplayer开放的网站，欢迎你自由发布Cosplay图像。即使你不是Cosplayer，你也可在此欣赏到全世界高水准的Cosplay图像。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/WorldCosplay.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-03-16 17:00:00",
+                "r18": false
+            },
+            {
+                "sid": 406,
+                "title": "天极图片",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/天极图片.png",
+                "description": "天极图片-全球最大最全的中文图片库",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/天极图片.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-25 20:00:00",
+                "r18": false
+            },
+            {
+                "sid": 407,
+                "title": "写真图吧",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/写真图吧.png",
+                "description": "写真图吧-最全美女图片",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/写真图吧.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-26 00:00:00",
+                "r18": false
+            },
+            {
+                "sid": 408,
+                "title": "搜狗图片",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/搜狗图片.png",
+                "description": "搜狗图片。540个分类，因为太多分类所以没有全部测试过，有BUG请告诉我",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/搜狗图片.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-26 17:00:00",
+                "r18": false
+            },
+            {
+                "sid": 409,
+                "title": "gank.io",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/gank.io.png",
+                "description": "gank.io的福利图",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gank.io.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-05-02 17:00:00",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 5,
+        "title": "真人图站",
+        "english": "Reality Sites",
+        "r18": true,
+        "sites": []
+    },
+    {
+        "cid": 5,
+        "title": "素材图站",
+        "english": "Resource Sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 501,
+                "title": "deviantART",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/deviantart.png",
+                "description": "deviantART是一个为艺术家展示各自作品、并交流讨论而设计的社交网络服务网站。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/deviantart.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-15 17:25:23",
+                "r18": false
+            },
+            {
+                "sid": 502,
+                "title": "图虫网",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/图虫.png",
+                "description": "最好的摄影师都在这。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/图虫.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-22 04:40:00",
+                "r18": false
+            },
+            {
+                "sid": 503,
+                "title": "必应每日一图",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/bing.png",
+                "description": "必应每日一图。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/bing.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-11-25 13:10:00",
+                "r18": false
+            },
+            {
+                "sid": 504,
+                "title": "FindA.Photo",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/FindA.Photo.png",
+                "description": "FindA.Photo: 提供可免费使用的图片(包括商业)。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/FindA.Photo.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-09 13:10:00",
+                "r18": false
+            },
+            {
+                "sid": 505,
+                "title": "Unsplash",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Unsplash.png",
+                "description": "Free High-Resolution Photos.",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Unsplash.txt",
+                "versionCode": 1,
+                "lastUpdate": "2016-12-16 13:00:00",
+                "r18": false
+            },
+            {
+                "sid": 506,
+                "title": "安卓壁纸",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/安卓壁纸.png",
+                "description": "小米手机助手上的安卓壁纸源",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/安卓壁纸.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-02-23 13:00:00",
+                "r18": false
+            },
+            {
+                "sid": 507,
+                "title": "DesignersPics",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/DesignersPics.png",
+                "description": "无版权高清大图",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/DesignersPics.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-08 20:00:00",
+                "r18": false
+            },
+            {
+                "sid": 508,
+                "title": "P E E K S P A C E",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/peekspace.png",
+                "description": "酷炫到没朋友，所有图片均来自美国宇航局",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/peekspace.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-09 01:00:00",
+                "r18": false
+            },
+            {
+                "sid": 509,
+                "title": "搜狗壁纸Android",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/搜狗壁纸Android.png",
+                "description": "搜狗壁纸安卓版，内含32个分类",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/搜狗壁纸Android.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-03-20 21:40:00",
+                "r18": false
+            },
+            {
+                "sid": 510,
+                "title": "ArtStation",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/ArtStation.png",
+                "description": "ArtStation是前列的游戏、电影、媒体和娱乐艺术家展示平台。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/ArtStation.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-19 05:00:00",
+                "r18": false
+            },
+            {
+                "sid": 510,
+                "title": "Wallzy",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Wallzy.png",
+                "description": "安卓APP---《Wallzy》的图片，图源估计是Unsplash",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Wallzy.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-23 00:00:00",
+                "r18": false
+            },
+            {
+                "sid": 511,
+                "title": "walli",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/walli.png",
+                "description": "安卓APP---《walli》的图片",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/walli.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-03-23 11:00:00",
+                "r18": false
+            },
+            {
+                "sid": 512,
+                "title": "向日葵8号卫星图",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/向日葵8号.png",
+                "description": "向日葵8号卫星图,每10分钟一张图,可能有延迟,出现'No Image'请无视,此站点测试用,可能会删掉。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/向日葵8号.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-04-29 00:00:00",
+                "r18": true
+            },
+            {
+                "sid": 513,
+                "title": "堆糖",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/堆糖.png",
+                "description": "分享收集有关时尚生活的各种图片资讯，手工DIY、插画手绘、美食菜谱、潮流品牌、搭配街拍、美妆发型等等。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/堆糖.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-05-08 15:00:00",
+                "r18": false
+            },
+            {
+                "sid": 514,
+                "title": "wallhaven",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/wallhaven.png",
+                "description": "Your source for the best high quality wallpapers on the Net!",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/wallhaven.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-27 10:00",
+                "r18": false
+            },
+            {
+                "sid": 515,
+                "title": "维基百科每日图片",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/维基百科每日图片.png",
+                "description": "最近7天的图片，中文与英文版，网络问题请自行解决。",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/维基百科每日图片.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-06-30 11:11",
+                "r18": false
+            }
+        ]
+    },
+    {
+        "cid": 6,
+        "title": "视频站",
+        "english": "Video Sites",
+        "r18": false,
+        "sites": [
+            {
+                "sid": 601,
+                "title": "Redtube",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Redtube.png",
+                "description": "PornHub的旗下/兄弟视频网站Redtube(无需梯子)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Redtube.txt",
+                "versionCode": 4,
+                "lastUpdate": "2017-06-24 03:30:00",
+                "r18": true
+            },
+            {
+                "sid": 602,
+                "title": "ThisAV",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/ThisAV.png",
+                "description": "世界第一中文成人娱乐网站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/ThisAV.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-06-24 03:30:00",
+                "r18": true
+            },
+            {
+                "sid": 603,
+                "title": "GayHub",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/GayHub.png",
+                "description": "真·全球最大的基佬交流网站",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/GayHub.txt",
+                "versionCode": 2,
+                "lastUpdate": "2017-06-24 03:30:00",
+                "r18": true
+            },
+            {
+                "sid": 604,
+                "title": "YouPorn",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/YouPorn.png",
+                "description": "PornHub的旗下/兄弟视频网站YouPorn(可能需要梯子)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/YouPorn.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-24 03:30:00",
+                "r18": true
+            },
+            {
+                "sid": 605,
+                "title": "Tube8",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Tube8.png",
+                "description": "PornHub的旗下/兄弟视频网站Tube8(可能需要梯子)",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Tube8.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-06-24 07:00:00",
+                "r18": true
+            }
+        ]
+    }
+]
