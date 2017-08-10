@@ -396,7 +396,8 @@
         "videoRule": {
             "content": {
                 "fun": "attr",
-                "param": "href",
+                "param": "data-modaltype",
+                "regex": "([a-zA-z]+://[^\\s]*)",
                 "selector": "this"
             },
             "item": {
@@ -406,7 +407,7 @@
         "commentRule": {
             "author": {
                 "fun": "text",
-                "selector": "div.videoCommentBox > div.userCommentBox > span"
+                "selector": "div.videoCommentBox > div.userCommentBox > span,div.videoCommentBox > div.userCommentBox > a"
             },
             "datetime": {
                 "fun": "html",

@@ -507,10 +507,10 @@
                 "title": "YouPorn",
                 "author": "zhihaofans",
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/YouPorn.png",
-                "description": "PornHub的旗下/兄弟视频网站YouPorn(可能需要梯子)",
+                "description": "PornHub的旗下/兄弟视频网站YouPorn(需要梯子,推荐使用MXPlayer播放)",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/YouPorn.txt",
-                "versionCode": 1,
-                "lastUpdate": "2017-06-24 03:30:00",
+                "versionCode": 2,
+                "lastUpdate": "2017-08-10 15:30:00",
                 "r18": true
             },
             {
