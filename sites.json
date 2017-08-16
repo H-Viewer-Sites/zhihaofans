@@ -170,7 +170,7 @@
                 "author": "zhihaofans",
                 "description": "本站的本子都是从nhentai爬来的,登陆内容更多。搜索标签请加'#',选择/自定义线路请登录，时间线请设置为详细列表。",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
-                "versionCode": 5,
+                "versionCode": 6,
                 "lastUpdate": "2017-08-16 22:00:00",
                 "r18": true
             }

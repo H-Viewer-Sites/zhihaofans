@@ -96,7 +96,7 @@
             "url": {
                 "fun": "text",
                 "regex": "(.*)",
-                "replacement": "https://gentai.org/search/#$1?p={page:1}",
+                "replacement": "https://gentai.org/search/%23$1?p={page:1}",
                 "selector": "rt"
             }
         }
