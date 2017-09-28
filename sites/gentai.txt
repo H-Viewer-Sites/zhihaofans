@@ -87,17 +87,18 @@
         },
         "tagRule": {
             "item": {
-                "selector": "td.gallery-info > div.gallery-tags > span.tag > a > ruby"
+                "selector": "td.gallery-info > div.gallery-tags > span.tag > a"
             },
             "title": {
                 "fun": "text",
-                "selector": "rb"
+                "selector": "ruby > rb,ruby > rt,*:has(span[at]),*:has(span[cat])"
             },
             "url": {
-                "fun": "text",
+                "fun": "attr",
+                "param": "href",
                 "regex": "(.*)",
-                "replacement": "https://gentai.org/search/%23$1?p={page:1}",
-                "selector": "rt"
+                "replacement": "https://gentai.org/$1?p={page:1}",
+                "selector": "this"
             }
         }
     },
