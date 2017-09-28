@@ -1,0 +1,106 @@
+{
+    "categories": [
+        {
+            "url": "https://gentai.org/?p={page:1}",
+            "title": "首页列表",
+            "cid": 1
+        },
+        {
+            "url": "https://gentai.org/random",
+            "title": "随机",
+            "cid": 2
+        },
+        {
+            "url": "https://gentai.org/recent?p={page:1}",
+            "title": "更新历史",
+            "cid": 3
+        },
+        {
+            "url": "https://gentai.org/rank?p={page:1}",
+            "title": "全部热门",
+            "cid": 4
+        },
+        {
+            "url": "https://gentai.org/rank/daily?p={page:1}",
+            "title": "今日热门",
+            "cid": 5
+        },
+        {
+            "url": "https://gentai.org/rank/favorites?p={page:1}",
+            "title": "热门收藏",
+            "cid": 6
+        },
+        {
+            "url": "https://gentai.org/user/favorites?p={page:1}",
+            "title": "我的收藏",
+            "cid": 7
+        },
+        {
+            "url": "https://gentai.org/user/history?p={page:1}",
+            "title": "浏览历史",
+            "cid": 8
+        }
+    ],
+    "flag": "noRating",
+    "galleryRule": {
+        "js": "$('i.player-icon.icon-preview').click();",
+        "videoRule": {
+            "content": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "this"
+            },
+            "item": {
+                "selector": "video > source"
+            }
+        }
+    },
+    "galleryUrl": "http://m.bilibili.com/video/av13971802.html",
+    "indexRule": {
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "td.gallery-cover > a > img"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "href",
+            "regex": "/gallery/(\\d+)",
+            "selector": "td.gallery-info > div.gallery-title > a"
+        },
+        "item": {
+            "selector": "tr.gallery-item"
+        },
+        "title": {
+            "fun": "text",
+            "selector": "td.gallery-info > div.gallery-title > a"
+        },
+        "datetime": {
+            "fun": "text",
+            "regex": "(\\d+/\\d+/\\d+) (\\d+:\\d+:\\d+)",
+            "replacement": "$1 $2",
+            "selector": "td.gallery-info > div.gallery-ts > ts"
+        },
+        "tagRule": {
+            "item": {
+                "selector": "td.gallery-info > div.gallery-tags > span.tag > a > ruby"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "rb"
+            },
+            "url": {
+                "fun": "text",
+                "regex": "(.*)",
+                "replacement": "https://gentai.org/search/%23$1?p={page:1}",
+                "selector": "rt"
+            }
+        }
+    },
+    "indexUrl": "https://gentai.org/?p={page:1}",
+    "loginUrl": "https://gentai.org/user",
+    "searchUrl": "https://gentai.org/search/{keyword:}?p={page:1}",
+    "sid": 301,
+    "header": "User-Agent:Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Mobile Safari/537.36",
+    "title": "Bilibili"
+}
