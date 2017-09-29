@@ -91,13 +91,13 @@
             },
             "title": {
                 "fun": "text",
-                "selector": "ruby > rb,ruby > rt,*:has(span[at]),*:has(span[cat])"
+                "selector": "ruby > rb,ruby > rt,*:has(span[at]),*:has(span[cat]),*:has(span[tag]):not(:has(ruby > rb,ruby > rt))"
             },
             "url": {
                 "fun": "attr",
                 "param": "href",
                 "regex": "(.*)",
-                "replacement": "https://gentai.org/$1?p={page:1}",
+                "replacement": "$1?p={page:1}",
                 "selector": "this"
             }
         }
