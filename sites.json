@@ -164,7 +164,7 @@
             "sid": 301,
             "title": "gentai",
             "author": "zhihaofans",
-            "description": "本站的本子都是从nhentai爬来的,登陆内容更多。搜索标签请加'#',选择/自定义线路请登录，时间线请设置为详细列表。",
+            "description": "本站的本子都是从nhentai爬来的,必须登陆。搜索标签请加'#',选择/自定义线路请登录，时间线请设置为详细列表。",
             "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
             "versionCode": 9,
             "lastUpdate": "2017-09-29 16:00:00",
