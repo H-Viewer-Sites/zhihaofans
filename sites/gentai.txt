@@ -1,6 +1,5 @@
 {
-    "categories": [
-        {
+    "categories": [{
             "url": "https://gentai.org/?p={page:1}",
             "title": "首页列表",
             "cid": 1
@@ -11,37 +10,32 @@
             "cid": 2
         },
         {
-            "url": "https://gentai.org/recent?p={page:1}",
-            "title": "更新历史",
+            "url": "https://gentai.org/rank/daily?p={page:1}",
+            "title": "热门",
             "cid": 3
         },
         {
             "url": "https://gentai.org/rank?p={page:1}",
-            "title": "全部热门",
+            "title": "最多浏览",
             "cid": 4
         },
         {
-            "url": "https://gentai.org/rank/daily?p={page:1}",
-            "title": "今日热门",
-            "cid": 5
-        },
-        {
             "url": "https://gentai.org/rank/favorites?p={page:1}",
-            "title": "热门收藏",
-            "cid": 6
+            "title": "最多收藏",
+            "cid": 5
         },
         {
             "url": "https://gentai.org/user/favorites?p={page:1}",
             "title": "我的收藏",
-            "cid": 7
+            "cid": 6
         },
         {
             "url": "https://gentai.org/user/history?p={page:1}",
             "title": "浏览历史",
-            "cid": 8
+            "cid": 7
         }
     ],
-    "flag": "noRating",
+    "flag": "noRating|loginRequired",
     "galleryRule": {
         "pictureRule": {
             "thumbnail": {
@@ -79,11 +73,17 @@
             "fun": "text",
             "selector": "td.gallery-info > div.gallery-title > a"
         },
+        "category": {
+            "fun": "text",
+            "regex": "(.+)",
+            "replacement": "$1 点击",
+            "selector": "td.gallery-info > div.gallery-ts > span.icon-eye"
+        },
         "datetime": {
             "fun": "text",
             "regex": "(\\d+/\\d+/\\d+) (\\d+:\\d+:\\d+)",
             "replacement": "$1 $2",
-            "selector": "td.gallery-info > div.gallery-ts > ts"
+            "selector": "td.gallery-info > div.gallery-ts > span.icon-clock"
         },
         "tagRule": {
             "item": {
