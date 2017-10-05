@@ -464,6 +464,28 @@
                 "versionCode": 1,
                 "lastUpdate": "2017-07-04 11:55",
                 "r18": false
+            },
+            {
+                "sid": 516,
+                "title": "wallls",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/wallls.png",
+                "description": "(v1) We have created this wallpaper gallery of the most awesome and inspiring wallpapers on the Web for your Desktop. Now there are more than 71000 amazing wallpapers.",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/wallls.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-10-06 03:00",
+                "r18": false
+            },
+            {
+                "sid": 517,
+                "title": "旅图网",
+                "author": "zhihaofans",
+                "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/旅图网.png",
+                "description": "(v1)精选海量高清精美大图,风格各异,个性十足;开启一场图的旅行,在旅图!邂逅爱不释手的心动之图,在旅图!喜欢的图,在旅图!",
+                "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/旅图网.txt",
+                "versionCode": 1,
+                "lastUpdate": "2017-10-06 03:00",
+                "r18": false
             }
         ]
     },

@@ -1,0 +1,42 @@
+{
+    "flag": "noRating|noTag|jsScroll|jsNeededIndex|onePicGallery|waterfallAsList",
+    "indexRule": {
+        "pictureRule": {
+            "thumbnail": {
+                "fun": "attr",
+                "param": "src",
+                "selector": "img.img-cell"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "selector": "div.cooperation-bar > a"
+            },
+            "item": {
+                "selector": "this"
+            }
+        },
+        "cover": {
+            "fun": "attr",
+            "param": "src",
+            "selector": "img.img-cell"
+        },
+        "idCode": {
+            "fun": "attr",
+            "param": "data-id",
+            "selector": "this"
+        },
+        "item": {
+            "selector": "div.row div.img-cell-container"
+        },
+        "title": {
+            "fun": "attr",
+            "param": "alt",
+            "selector": "img.img-cell"
+        }
+    },
+    "indexUrl": "https://www.imgtrip.com/",
+    "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
+    "sid": 517,
+    "title": "旅图网"
+}
