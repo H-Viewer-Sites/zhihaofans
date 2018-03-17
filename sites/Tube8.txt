@@ -194,7 +194,7 @@
         "cover": {
             "fun": "attr",
             "param": "src",
-            "selector": "div.thumb_box > a.video-thumb-link > img.videoThumbs"
+            "selector": "img"
         },
         "idCode": {
             "fun": "attr",
