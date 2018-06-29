@@ -1,110 +1,80 @@
-{
+﻿{
     "categories": [{
-            "url": "https://gentai.org/?p={page:1}",
-            "title": "首页列表",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=time",
+            "title": "最新",
             "cid": 1
         },
         {
-            "url": "https://gentai.org/random",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=random",
             "title": "随机",
             "cid": 2
         },
         {
-            "url": "https://gentai.org/rank/daily?p={page:1}",
-            "title": "热门",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=daily",
+            "title": "今日热门",
             "cid": 3
         },
         {
-            "url": "https://gentai.org/rank?p={page:1}",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=hits",
             "title": "最多浏览",
             "cid": 4
         },
         {
-            "url": "https://gentai.org/rank/favorites?p={page:1}",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=favorites",
             "title": "最多收藏",
             "cid": 5
         },
         {
-            "url": "https://gentai.org/user/favorites?p={page:1}",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=user_favorites",
             "title": "我的收藏",
             "cid": 6
         },
         {
-            "url": "https://gentai.org/user/history?p={page:1}",
+            "url": "https://gentai.org/galleries.json?p={page:1}&mode=user_history",
             "title": "浏览历史",
             "cid": 7
         }
     ],
     "flag": "noRating|loginRequired",
-    "galleryRule": {
-        "pictureRule": {
-            "thumbnail": {
-                "fun": "attr",
-                "param": "data-src",
-                "selector": "this"
-            },
-            "url": {
-                "fun": "attr",
-                "param": "data-src",
-                "selector": "this"
-            },
-            "item": {
-                "selector": "img.gallery-image"
-            }
-        }
-    },
-    "galleryUrl": "https://gentai.org/gallery/{idCode:}?p={page:1}&t=w",
     "indexRule": {
         "cover": {
-            "fun": "attr",
-            "param": "src",
-            "selector": "td.gallery-cover > a > img"
+            "regex": "(.+)",
+            "replacement": "https://img.gentai.org$1",
+            "path": "$.cover"
         },
         "idCode": {
-            "fun": "attr",
-            "param": "href",
-            "regex": "/gallery/(\\d+)",
-            "selector": "td.gallery-info > div.gallery-title > a"
+            "path": "$.id"
         },
         "item": {
-            "selector": "tr.gallery-item"
+            "path": "$.data"
         },
         "title": {
-            "fun": "text",
-            "selector": "td.gallery-info > div.gallery-title > a"
+            "path": "$.title"
         },
         "category": {
-            "fun": "text",
             "regex": "(.+)",
             "replacement": "$1 点击",
-            "selector": "td.gallery-info > div.gallery-ts > span.icon-eye"
+            "path": "$.hits"
         },
-        "datetime": {
-            "fun": "text",
-            "regex": "(\\d+/\\d+/\\d+) (\\d+:\\d+:\\d+)",
-            "replacement": "$1 $2",
-            "selector": "td.gallery-info > div.gallery-ts > span.icon-clock"
+        "tags": {
+            "regex": "([#@$][^#@$]+)",
+            "path": "$.tags"
         },
-        "tagRule": {
-            "item": {
-                "selector": "td.gallery-info > div.gallery-tags > span.tag > a"
-            },
-            "title": {
-                "fun": "text",
-                "selector": "ruby > rb,ruby > rt,*:has(span[at]),*:has(span[cat]),*:has(span[tag]):not(:has(ruby > rb,ruby > rt))"
+        "pictureRule": {
+            "thumbnail": {
+                "path": "$"
             },
             "url": {
-                "fun": "attr",
-                "param": "href",
-                "regex": "(.*)",
-                "replacement": "$1?p={page:1}",
-                "selector": "this"
+                "path": "$"
+            },
+            "item": {
+                "path": "$.images"
             }
         }
     },
-    "indexUrl": "https://gentai.org/?p={page:1}",
+    "indexUrl": "https://gentai.org/galleries.json?mode=time&p={page:1}",
     "loginUrl": "https://gentai.org/user",
-    "searchUrl": "https://gentai.org/search/{keyword:}?p={page:1}",
+    "searchUrl": "https://gentai.org/search.json?mode=time&text={keyword:}&p={page:1}",
     "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
     "sid": 301,
     "title": "gentai"
