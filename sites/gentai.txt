@@ -62,9 +62,13 @@
         },
         "pictureRule": {
             "thumbnail": {
+                "regex": "(.+)",
+                "replacement": "https://img.gentai.org$1",
                 "path": "$"
             },
             "url": {
+                "regex": "(.+)",
+                "replacement": "https://img.gentai.org$1",
                 "path": "$"
             },
             "item": {
