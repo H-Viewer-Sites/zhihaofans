@@ -164,10 +164,10 @@
             "sid": 301,
             "title": "gentai",
             "author": "zhihaofans",
-            "description": "(v9)本站的本子都是从nhentai爬来的,必须登陆。搜索标签请加'#',选择/自定义线路请登录，时间线请设置为详细列表。",
+            "description": "(v11)本站的本子都是从nhentai爬来的,必须登陆。搜索标签请加'#',选择/自定义线路请登录，时间线请设置为详细列表。",
             "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/gentai.txt",
-            "versionCode": 10,
-            "lastUpdate": "2018-06-29 22:05:00",
+            "versionCode": 11,
+            "lastUpdate": "2018-08-22 03:09:00",
             "r18": true
         }]
     },

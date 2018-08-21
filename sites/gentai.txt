@@ -1,36 +1,36 @@
 ﻿{
     "categories": [{
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=time",
+            "url": "https://gentai.org/g/src:all/order:index/text:!?p={page:1}",
             "title": "最新",
             "cid": 1
         },
         {
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=random",
+            "url": "https://gentai.org/g/src:all/order:random/text:!?p={page:1}",
             "title": "随机",
             "cid": 2
         },
         {
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=daily",
+            "url": "https://gentai.org/g/src:all/order:daily/text:!?p={page:1}",
             "title": "今日热门",
             "cid": 3
         },
         {
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=hits",
+            "url": "https://gentai.org/g/src:all/order:hits/text:!?p={page:1}",
             "title": "最多浏览",
             "cid": 4
         },
         {
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=favorites",
+            "url": "https://gentai.org/g/src:all/order:favs/text:!?p={page:1}",
             "title": "最多收藏",
             "cid": 5
         },
         {
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=user_favorites",
+            "url": "https://gentai.org/g/src:favorites/order:date2/text:!?p={page:1}",
             "title": "我的收藏",
             "cid": 6
         },
         {
-            "url": "https://gentai.org/galleries.json?p={page:1}&mode=user_history",
+            "url": "https://gentai.org/g/src:history/order:date2/text:!?p={page:1}",
             "title": "浏览历史",
             "cid": 7
         }
@@ -46,7 +46,10 @@
             "path": "$.id"
         },
         "item": {
-            "path": "$.data"
+             "selector": "script",
+             "fun": "html",
+             "path": "$.data",
+             "regex": "(\\{\"data\".*?\\});"
         },
         "title": {
             "path": "$.title"
@@ -76,9 +79,9 @@
             }
         }
     },
-    "indexUrl": "https://gentai.org/galleries.json?mode=time&p={page:1}",
+    "indexUrl": "https://gentai.org/g/src:all/order:date/text:!?p={page:1}",
     "loginUrl": "https://gentai.org/user",
-    "searchUrl": "https://gentai.org/search.json?mode=time&text={keyword:}&p={page:1}",
+    "searchUrl": "https://gentai.org/g/src:all/order:index/text:{keyword:}?p={page:1}",
     "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
     "sid": 301,
     "title": "gentai"
