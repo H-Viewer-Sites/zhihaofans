@@ -1,87 +1,119 @@
 ﻿{
     "categories": [{
-            "url": "https://gentai.org/g/src:all/order:index/text:!?p={page:1}",
-            "title": "最新",
+            "url": "https://bbs.gent41.com/viewforum.php?f=2&start={page:1:25}",
+            "title": "一本",
             "cid": 1
         },
         {
-            "url": "https://gentai.org/g/src:all/order:random/text:!?p={page:1}",
-            "title": "随机",
+            "url": "https://bbs.gent41.com/viewforum.php?f=4&start={page:1:25}",
+            "title": "二本",
             "cid": 2
-        },
-        {
-            "url": "https://gentai.org/g/src:all/order:daily/text:!?p={page:1}",
-            "title": "今日热门",
-            "cid": 3
-        },
-        {
-            "url": "https://gentai.org/g/src:all/order:hits/text:!?p={page:1}",
-            "title": "最多浏览",
-            "cid": 4
-        },
-        {
-            "url": "https://gentai.org/g/src:all/order:favs/text:!?p={page:1}",
-            "title": "最多收藏",
-            "cid": 5
-        },
-        {
-            "url": "https://gentai.org/g/src:favorites/order:date2/text:!?p={page:1}",
-            "title": "我的收藏",
-            "cid": 6
-        },
-        {
-            "url": "https://gentai.org/g/src:history/order:date2/text:!?p={page:1}",
-            "title": "浏览历史",
-            "cid": 7
         }
     ],
-    "flag": "noRating|loginRequired",
-    "indexRule": {
-        "cover": {
-            "regex": "(.+)",
-            "replacement": "https://img.gentai.org$1",
-            "path": "$.cover"
-        },
-        "idCode": {
-            "path": "$.id"
-        },
-        "item": {
-             "selector": "script",
-             "fun": "html",
-             "path": "$.data",
-             "regex": "(\\{\"data\".*?\\});"
-        },
-        "title": {
-            "path": "$.title"
-        },
-        "category": {
-            "regex": "(.+)",
-            "replacement": "$1 点击",
-            "path": "$.hits"
-        },
-        "tags": {
-            "regex": "([#@$][^#@$]+)",
-            "path": "$.tags"
-        },
+    "flag": "noRating|loginRequired|preloadGallery",
+    "galleryRule": {
         "pictureRule": {
+            "item": {
+                "selector": "div.content > a",
+                "regex": "clickshow-button"
+            },
             "thumbnail": {
-                "regex": "(.+)",
-                "replacement": "https://img.gentai.org$1",
-                "path": "$"
+                "selector": "this",
+                "fun": "attr",
+                "param": "onclick",
+                "regex": "loadWebP\\(.*?,'([^']+)'\\)"
             },
             "url": {
-                "regex": "(.+)",
-                "replacement": "https://img.gentai.org$1",
-                "path": "$"
-            },
-            "item": {
-                "path": "$.images"
+                "selector": "this",
+                "fun": "attr",
+                "param": "onclick",
+                "regex": "loadWebP\\(.*?,'([^']+)'\\)"
             }
         }
     },
-    "indexUrl": "https://gentai.org/g/src:all/order:date/text:!?p={page:1}",
-    "loginUrl": "https://gentai.org/user",
-    "searchUrl": "https://gentai.org/g/src:all/order:index/text:{keyword:}?p={page:1}",
+    "indexRule": {
+        "cover": {
+            "selector": "div.list-inner img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "idCode": {
+            "selector": "a.topictitle",
+            "fun": "attr",
+            "param": "href",
+            "regex": "&t=(\\d+)"
+        },
+        "item": {
+             "selector": "ul.topics > li.row > dl.row-item-no-icon"
+        },
+        "title": {
+            "selector": "a.topictitle > span",
+            "fun": "text"
+        },
+        "category": {
+            "selector": "dd.posts > div.posts-down",
+            "fun": "text",
+            "regex": "(\\d+)",
+            "replacement": "$1 点击"
+        },
+        "uploader": {
+            "selector": "dd.lastpost a.username",
+            "fun": "text"
+        },
+        "datetime": {
+            "selector": "dd.lastpost > span",
+            "fun": "text",
+            "regex": "(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2})"
+        },
+        "tags": {
+            "selector": "div.g-meta-tags-div a.g-meta-tag",
+            "fun": "text",
+            "regex": "[#@$]([^#@$]+)"
+        }
+    },
+    "searchRule": {
+        "cover": {
+            "selector": "div.content img",
+            "fun": "attr",
+            "param": "src"
+        },
+        "idCode": {
+            "selector": "div.postbody > h3 > a",
+            "fun": "attr",
+            "param": "href",
+            "regex": "&t=(\\d+)"
+        },
+        "item": {
+             "selector": "div#page-body > div.post"
+        },
+        "title": {
+            "selector": "div.postbody > h3 > a",
+            "fun": "text"
+        },
+        "category": {
+            "selector": ".postprofile > dd:nth-child(6)",
+            "fun": "text",
+            "regex": "(\\d+)",
+            "replacement": "$1 点击"
+        },
+        "uploader": {
+            "selector": ".postprofile > .author > a",
+            "fun": "text"
+        },
+        "datetime": {
+            "selector": ".postprofile > dd.search-result-date",
+            "fun": "text"
+        },
+        "tags": {
+            "selector": "div.content",
+            "fun": "html",
+            "regex": "[#@$]([^#@$<>/|\\\\\\(\\) ]+)"
+        }
+    },
+    "galleryUrl": "https://bbs.gent41.com/viewtopic.php?f=2&t={idCode:}",
+    "indexUrl": "https://bbs.gent41.com/viewforum.php?f=2&start={page:1:25}",
+    "loginUrl": "https://bbs.gent41.com/ucp.php?mode=login",
+    "searchUrl": "https://bbs.gent41.com/search.php?st=0&sk=t&sd=d&sr=posts&keywords={keyword:}&fid%5B%5D=1&sf=firstpost&ch=1000&start={page:0:10}",
     "header": "User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0.2",
     "sid": 301,
     "title": "gentai"
