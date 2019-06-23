@@ -57,15 +57,29 @@
             "fun": "html",
             "selector": "section#post-information time"
         },
-        "tags": {
-            "fun": "attr",
-            "param": "content",
-            "regex": " ([a-z_()]+)",
-            "selector": "meta[name='tags']"
+        "tagRule": {
+            "item": {
+                "selector": "ul.general-tag-list a.search-tag"
+            },
+            "title": {
+                "fun": "text",
+                "selector": "this"
+            },
+            "url": {
+                "fun": "attr",
+                "param": "href",
+                "regex": "tags=(.*)",
+                "replacement": "/posts?page={page:1}&tags=$1",
+                "selector": "this"
+            }
         },
         "title": {
             "fun": "html",
             "selector": "p.desc"
+        },
+        "uploader": {
+            "fun": "html",
+            "selector": "ul.artist-tag-list a.search-tag"
         }
     },
     "galleryUrl": "https://danbooru.donmai.us/posts/{idCode:}?{pageStr:page={page:1}}",
@@ -82,11 +96,6 @@
         },
         "item": {
             "selector": "div#posts > div > article"
-        },
-        "uploader": {
-            "fun": "attr",
-            "param": "data-uploader",
-            "selector": "this"
         }
     },
     "indexUrl": "https://danbooru.donmai.us/posts{pageStr:?page={page:1}}}",
