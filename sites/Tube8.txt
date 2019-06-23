@@ -126,6 +126,7 @@
             "cid": 25
         }
     ],
+    "cookie": "",
     "flag": "preloadGallery",
     "galleryRule": {
         "videoRule": {
@@ -150,7 +151,7 @@
             },
             "datetime": {
                 "fun": "text",
-                "selector": "ul.video-info > li:eq(3)"
+                "selector": "span.comment-date-added"
             },
             "content": {
                 "fun": "text",
@@ -161,20 +162,17 @@
             }
         },
         "datetime": {
-            "fun": "text",
-            "selector": "div.videoInfoDates > div.tagBoxTitle:eq(1) > span"
+            "fun": "html",
+            "regex": "Added:</dt>.*?<dd>(.*?)</dd>",
+            "selector": "div.video-info>div.content>div.stats"
         },
         "description": {
-            "fun": "html",
-            "selector": "li.video_description"
-        },
-        "uploader": {
             "fun": "text",
-            "selector": "div.submitByLink > a"
+            "selector": "div.video-info>div.content>dl:eq(0)>dd"
         },
         "tagRule": {
             "item": {
-                "selector": "li.tag-list > a"
+                "selector": "ul.video-tagging-attribute a"
             },
             "title": {
                 "fun": "text",
@@ -193,7 +191,7 @@
     "indexRule": {
         "cover": {
             "fun": "attr",
-            "param": "src",
+            "param": "data-thumb",
             "selector": "img"
         },
         "idCode": {
@@ -202,22 +200,26 @@
             "selector": "this"
         },
         "item": {
-            "selector": "div.video_box"
+            "selector": "div#category_video_list figure.video_box"
         },
         "title": {
             "fun": "attr",
             "param": "title",
-            "selector": "p.video_title > a"
+            "selector": "p.video-title > a"
         },
         "category": {
             "fun": "text",
-            "selector": "div.thumb_box > div.video_duration"
+            "selector": "span.video-views"
         },
         "rating": {
             "fun": "text",
             "regex": "(.+)%",
             "replacement": "$1/20",
-            "selector": "div.video_info > div > span.float-left"
+            "selector": "span.video-likes"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "span.video-duration"
         }
     },
     "indexUrl": "https://www.tube8.com/newest/page/{page:1}/",

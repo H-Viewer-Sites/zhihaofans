@@ -1,6 +1,5 @@
 {
-    "categories": [
-        {
+    "categories": [{
             "url": "https://www.youporn.com/?page={page:1}",
             "title": "最新视频",
             "cid": 1
@@ -395,13 +394,12 @@
     "galleryRule": {
         "videoRule": {
             "content": {
-                "fun": "attr",
-                "param": "data-modaltype",
-                "regex": "([a-zA-z]+://[^\\s]*)",
+                "fun": "html",
+                "regex": "src='(.*?)'",
                 "selector": "this"
             },
             "item": {
-                "selector": "a.downloadVideoLink"
+                "selector": "div.embed-video"
             }
         },
         "commentRule": {
@@ -423,20 +421,15 @@
         },
         "datetime": {
             "fun": "text",
-            "selector": "div.videoInfoDates > div.tagBoxTitle:eq(1) > span"
+            "selector": "div.videoInfoDates > div.video-uploaded > span"
         },
         "description": {
-            "fun": "attr",
-            "param": "content",
-            "selector": "meta[name=\"description\"]"
-        },
-        "uploader": {
             "fun": "text",
-            "selector": "div.submitByLink > a"
+            "selector": "div#description"
         },
         "tagRule": {
             "item": {
-                "selector": "div#videoTags > div.tagBoxContent > a"
+                "selector": "div.categoriesWrapper > a"
             },
             "title": {
                 "fun": "text",
@@ -453,8 +446,8 @@
     "indexRule": {
         "cover": {
             "fun": "attr",
-            "param": "src",
-            "selector": "a.video-box-image > img.js_mg_flipbook"
+            "param": "data-original",
+            "selector": "span.video-box-image-wrapper > img"
         },
         "idCode": {
             "fun": "attr",
@@ -465,19 +458,22 @@
             "selector": "div.video-box.four-column"
         },
         "title": {
-            "fun": "attr",
-            "param": "alt",
-            "selector": "a.video-box-image > img.js_mg_flipbook"
+            "fun": "text",
+            "selector": "div.video-box-title"
         },
         "category": {
             "fun": "text",
-            "selector": "span.video-box-infos > span.video-box-duration"
+            "selector": "span.video-box-views"
+        },
+        "uploader": {
+            "fun": "text",
+            "selector": "div.video-duration"
         },
         "rating": {
             "fun": "text",
             "regex": "(.+)%",
             "replacement": "$1/20",
-            "selector": "span.video-box-infos > span.video-box-rating > span.video-box-percentage"
+            "selector": "div.video-box-rating > span.video-box-percentage"
         }
     },
     "indexUrl": "https://www.youporn.com/?page={page:1}",
