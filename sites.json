@@ -149,8 +149,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Danbooru.png",
                 "description": "(v1)booru站",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Danbooru.Post.txt",
-                "versionCode": 2,
-                "lastUpdate": "2016-12-01 12:00:00",
+                "versionCode": 3,
+                "lastUpdate": "2019-6-27 12:00:00",
                 "r18": false
             }
         ]
@@ -523,8 +523,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/YouPorn.png",
                 "description": "(v2)PornHub的旗下/兄弟视频网站YouPorn(需要梯子,推荐使用MXPlayer播放)",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/YouPorn.txt",
-                "versionCode": 3,
-                "lastUpdate": "2017-08-10 15:30:00",
+                "versionCode": 4,
+                "lastUpdate": "2019-06-27 15:30:00",
                 "r18": true
             },
             {
@@ -534,8 +534,8 @@
                 "icon": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/icons/Tube8.png",
                 "description": "(v1)PornHub的旗下/兄弟视频网站Tube8(可能需要梯子)",
                 "json": "https://raw.githubusercontent.com/H-Viewer-Sites/zhihaofans/master/sites/Tube8.txt",
-                "versionCode": 3,
-                "lastUpdate": "2018-03-17 09:19:00",
+                "versionCode": 4,
+                "lastUpdate": "2019-06-27 09:19:00",
                 "r18": true
             }
         ]
